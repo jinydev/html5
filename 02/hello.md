@@ -18,14 +18,14 @@ Hello World
 파일을 저장합니다.
 
 ## 확인
-작성한 `index.html` 파일을 웹 브라우저로 확인을 합니다.
+작성한 `hello-01.html` 파일을 웹 브라우저로 확인을 합니다.
 크롬 브라우저 url에서 로컬 컴퓨터의 파일 위치를 입력합니다.
 
 작성예시)
 ```
-file:///D:/jinydev/html5/02/ex02/index.html
+file:///D:/jinydev/html5/02/ex02/hello-01.html
 ```
 
 결과확인
-![hello](./img/hello.png)
+![hello](./img/hello-01.png)
 
