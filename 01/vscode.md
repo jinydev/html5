@@ -11,3 +11,5 @@ VScode는 마이크로소프트의 무료로 배포하는 코드 편집기 입�
 https://code.visualstudio.com/
 
 
+## 설치방법
+VSCode 설치 및 활용법은 [vscode.jiny.dev](https://vscode.jiny.dev)를 참조하세요.
