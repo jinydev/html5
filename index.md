@@ -1,10 +1,13 @@
 웹사이트 개발을 위한 HTML5에 대해서 학습을 합니다.
 
 ## 1강: 소개
+html을 학습하기 전에 개념 학습과 환경설정을 준비합니다.
 
 ### 01-2 [html이란](./intro)
 html5 의 소개와 개발을 위한 환경 설정에 대해서 설명을 합니다.
-
+* 인터넷 탄생
+* w3c
+* 브라우저
 
 ### 01-2 [환경설정](./setup)
 웹프론트 개발을 위한 로컬 PC 환경을 구축합니다. 개발 환경을 구축하기 위한 도구들을 설치합니다.
@@ -12,19 +15,24 @@ html5 의 소개와 개발을 위한 환경 설정에 대해서 설명을 합니
 * [크롬](./setup/chrome) 브라우저 설치
 * [VSCode](./setup/vscode) 설치
 
+<hr>
 
 ## 2강: HTML [시작하기](./basic)
 간단한 인사말 웹페이지 파일을 생성합니다. 웹 문서의 구조를 확인합니다.
 
 ### 02-1 헬로우 월드
+웹브라우저에 `Hello world`를 출력해 봅니다.
 * [헬로우월드](./basic/hello)
-* [테그](./basic/tag)
 
 ### 02-2 [문서구조](./basic/structure)
+html 문서의 기본 구조에 대해서 알아 봅니다.
 * HTML5 [문서구조](./basic/structure)
 
 ### 02-2 실습확인
-* [미리보기](./basic/preview)
+html 코드의 작성을 도움을 줄 수 있는 확장 프로그램을 설치 합니다.
+* [설정방법](./basic/preview)
+
+<hr>
 
 ## 3강: 테그
 html 글을 꾸미기 위한 기본적인 테그에 대해서 학습을 합니다.
@@ -43,18 +51,24 @@ html 글을 꾸미기 위한 기본적인 테그에 대해서 학습을 합니�
 * [이동](./tag/a)
 
 ### 03-4 스타일
+테그를 이용하여 html 문서를 작성하는 코드작성법에 대해서 알아 봅니다.
 * [코드스타일](./tag/style)
+
+<hr>
 
 ## 4강: 리스트/표
 목록과 데이터를 출력하는 방법을 학습합니다.
 
-### 04-1 [리스트](./list/list)
+### 04-1 리스트
 목록을 출력합니다.
+* [리스트](./list/list)
 
 ### 04-2 [테이블](./list/table)
 데이터를 표형태로 출력을 합니다.
 
-## 5강: [마크다운\(./markdown)
+<hr>
+
+## 5강: [마크다운](./markdown)
 간단하게 html문서를 작성할 수 있는 규칙입니다.
 
 ## 6강: [미디어](./media)
@@ -117,13 +131,13 @@ CSS 라이브러리를 이용하여 화면을 구성합니다.
 ## 참고도서
 HTML 및 CSS를 학습하기 위한 참고도서 및 동영상 정보 입니다.
 
-* 모던웹을 위한 HTML5 + CSS3 바이블 3판(한빛미디어)
+* 모던웹을 위한 HTML5 + CSS3 바이블 3판(한빛미디어)  
 [유튜브 동영상](https://www.youtube.com/playlist?list=PLBXuLgInP-5kgzJZRGhpHZINPu-K90jbM)
 
-* Do it! HTML5 + CSS (이지스퍼블리싱)
+* Do it! HTML5 + CSS (이지스퍼블리싱)  
 [유튜브 동영상](https://www.youtube.com/playlist?list=PLG7te9eYUi7uvROuVChYgAL5pMK7gnWSp)
 
-* T아카데미 : HTML5 + CSS
+* T아카데미 : HTML5 + CSS  
 [유튜브 동영상](https://www.youtube.com/playlist?list=PL9mhQYIlKEhdTdvqzohqVs3RTVHzWPu79)
 
-
+* [W3schools](https://www.w3schools.com/html/default.asp)
