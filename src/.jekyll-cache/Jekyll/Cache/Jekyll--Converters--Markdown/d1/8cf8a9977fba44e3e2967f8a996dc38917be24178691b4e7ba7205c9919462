@@ -1,0 +1,8 @@
+I"T<h2 id="인라인">인라인</h2>
+<p>특정 테그에만 직접 스타일을 적용하는 방법입니다. 최근에는 인라인 스타일을 사용하지 않는 추세 입니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1</span> <span class="na">style=</span><span class="s">"color:red"</span><span class="nt">&gt;</span>Hello world<span class="nt">&lt;/h1&gt;</span>
+</code></pre></div></div>
+
+<p>인라인은 직접 적용을 반영하는 것이기 때문에, 테그 선택을 할 필요가 없습니다.</p>
+:ET

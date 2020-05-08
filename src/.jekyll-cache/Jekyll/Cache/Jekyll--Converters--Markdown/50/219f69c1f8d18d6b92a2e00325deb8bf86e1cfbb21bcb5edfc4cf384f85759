@@ -1,0 +1,32 @@
+I"F<h1 id="본문-테그">본문 테그</h1>
+<p>html의 본문을 작성할때는 어떤 테그를 사용할까요? 본문을 작성을 할때에는 <code class="highlighter-rouge">p</code> 테그를 사용합니다.</p>
+
+<h2 id="단락">단락</h2>
+<p>p 테그는 영어의 단락(paragraph)의 앞글자를 의미 합니다. p 테그는 본문의 단락을 지정할 때 사용을 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>본문 내용을 작성합니다.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h2 id="실습-예제">실습 예제</h2>
+<p>문단을 작성해 보도록 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span> 
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        
+        <span class="nt">&lt;h1&gt;</span>안녕하세요<span class="nt">&lt;/h1&gt;</span>
+        
+        <span class="nt">&lt;p&gt;</span>
+            날씨가 참 좋네요. 오늘도 좋은 하루가 되었으면 합니다.
+        <span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h2 id="문단간격">문단간격</h2>
+<p>문단과 문단은 간격을 가지게 됩니다. 문단은 <code class="highlighter-rouge">p테그</code>로 감싸서 생성을 하게 됩니다.</p>
+
+:ET

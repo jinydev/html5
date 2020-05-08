@@ -1,0 +1,55 @@
+I"�
+<h1 id="목록테그">목록테그</h1>
+<p>데이터 목록을 출력합니다.</p>
+
+<h2 id="목록의-종류">목록의 종류</h2>
+<p>html은 2가지 종료의 목록을 지원합니다. 순가 있는 목록, 순서가 없는 목록으로 구분됩니다.</p>
+
+<p>목록은 요소 테그와 요소를 묽는 테그로 구분이 됩니다.</p>
+
+<h2 id="요소테그">요소테그</h2>
+<p>리스트의 요소는 <code class="highlighter-rouge">li</code> 테그를 이용하여 생성합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;li&gt;</span>메뉴1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>메뉴2<span class="nt">&lt;/li&gt;</span>
+</code></pre></div></div>
+
+<h2 id="순서가-없는-목록">순서가 없는 목록</h2>
+<p><code class="highlighter-rouge">ul</code>테그를 사용합니다. unordered list의 약자 입니다.
+순서가 없는 목록을 생성합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>메뉴1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>메뉴2<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<p>순서가 없는 테그는 요소 앞에 <code class="highlighter-rouge">점</code>이 표시됩니다.</p>
+
+<h2 id="순서가-있는-목록">순서가 있는 목록</h2>
+<p><code class="highlighter-rouge">ol</code> 테그를 사용합니다. ordered list의 약자 입니다.
+순서가 있는 목록을 생성합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>메뉴1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>메뉴2<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
+
+<p>순서에 대한 번호가 부여가 됩니다.</p>
+
+<h2 id="정의목록">정의목록</h2>
+<p>목록의 용어나 정의를 위하여 사용되는 테그 입니다.</p>
+
+<h3 id="dl">dl</h3>
+<p><code class="highlighter-rouge">dl</code>테그는 정의 목록 입니다. <code class="highlighter-rouge">&lt;dl&gt;&lt;/dl&gt;</code>테그는 <code class="highlighter-rouge">dt</code>테그와 <code class="highlighter-rouge">dd</code>테그를 감싸는 역할을 합니다.</p>
+
+<h3 id="dt">dt</h3>
+<p><code class="highlighter-rouge">dt</code> 정의 용어
+목록의 제목과 같이 표시됩니다.</p>
+
+<h3 id="dd">dd</h3>
+<p><code class="highlighter-rouge">dd</code> 정의 설명
+목록으로 출력이 됩니다.</p>
+
+:ET

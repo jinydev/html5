@@ -1,0 +1,11 @@
+I"�<h1 id="body">body</h1>
+
+<p>body 영역은 <code class="highlighter-rouge">&lt;body&gt;&lt;/body&gt;</code> 테그로 감싸져 있습니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<h2 id="body-테그">body 테그</h2>
+<p>화면에 출력에 관련된 테그를 입력합니다.</p>
+:ET

@@ -1,0 +1,173 @@
+I"�$<h1 id="테이블">테이블</h1>
+<p>테이블 테그를 이용하여 그리드 데이터를 표현할 수 있습니다.</p>
+
+<h2 id="table-테그">table 테그</h2>
+<p>html에서 표를 생성하는 테그 입니다.<br />
+테이블은 외각은 <code class="highlighter-rouge">table</code>테그를 사용합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+<p>위의 예제는 비어있는 테이블 입니다.</p>
+
+<p><code class="highlighter-rouge">table</code> 테그는 기본적으로 2개의 테그를 포함합니다. <code class="highlighter-rouge">tr</code>테그는 가로줄을 의미하며
+<code class="highlighter-rouge">td</code>테그는 셀을 의미합니다.</p>
+
+<h3 id="tr">tr</h3>
+<p><code class="highlighter-rouge">tr</code>테그는 테이블에서 한줄을 의미 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table&gt;</span>
+    <span class="nt">&lt;tr&gt;&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+<p>위의 예제는 테이블은 2개의 줄을 포함합니다.</p>
+
+<h3 id="td">td</h3>
+<p><code class="highlighter-rouge">td</code>테그는 테이블 한줄에 있는 셀 데이터를 의미합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용1<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용2<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용3<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용4<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용5<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용6<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">열</code> 과 <code class="highlighter-rouge">행</code>을 포함하는 데이터 테이블이 생성이 되었습니다.</p>
+
+<h2 id="데이터-영역">데이터 영역</h2>
+<p>html5는 테이블 영역을 꾸밀수 있는 몇개의 테그들이 추가 되었습니다. 
+실제 적인 데이터의 본체를 구별하기 위해서 <code class="highlighter-rouge">tbody</code> 테그를 추가합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용1<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용2<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용3<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용4<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용5<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용6<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tbody&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+<h2 id="상단영역">상단영역</h2>
+<p>보통 테이블의 첫번째 줄은 각 셀의 의미를 담고 있는 제목으로 사용 되는 경우가 많습니다.
+html5에서는 테이블 내부의 영역을 구분하여 제목행을 구별할 수 있는 <code class="highlighter-rouge">thead</code>테그를 지원합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table&gt;</span>
+    <span class="nt">&lt;thead&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>제목1<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>제목2<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>제목3<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/thead&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용1<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용2<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용3<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용4<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용5<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용6<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tbody&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+<h2 id="하단설정">하단설정</h2>
+<p>html5는 테이블의 하단 영역을 추가할 수 있습니다. 
+<code class="highlighter-rouge">tfoot</code>테그를 사용합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table&gt;</span>
+    <span class="nt">&lt;thead&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>제목1<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>제목2<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>제목3<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/thead&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용1<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용2<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용3<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용4<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용5<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>내용6<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tbody&gt;</span>
+    <span class="nt">&lt;tfoot&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>하단1<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>하단2<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>하단3<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tfoot&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+<h2 id="제목">제목</h2>
+<p>html5의 테이블은 제목을 별도의 테그로 설정을 할 수 있습니다.
+<code class="highlighter-rouge">caption</code>테그를 삽입합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table&gt;</span>
+    <span class="nt">&lt;caption&gt;</span>제목입니다.<span class="nt">&lt;/caption&gt;</span>
+    
+    <span class="nt">&lt;thead&gt;</span>
+    중간생략...
+    <span class="nt">&lt;/thead&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+    중간생략...
+    <span class="nt">&lt;/tbody&gt;</span>
+    <span class="nt">&lt;tfoot&gt;</span>
+    중간생략...
+    <span class="nt">&lt;/tfoot&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">caption</code>테그는 테이블 테그안에, 상단에 작성을 합니다.</p>
+
+<h2 id="colgroup">colgroup</h2>
+<p>컬럼열의 그룹을 설정할 수 있습니다.</p>
+
+<h2 id="테이블-속성">테이블 속성</h2>
+<p>테이블 테그에 속성을 이용하여 표를 꾸밀 수 있습니다.</p>
+
+<h3 id="테두리">테두리</h3>
+<p><code class="highlighter-rouge">border</code> 속성은 테이블의 테두리를 설정합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span> <span class="na">border=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+    중간생략
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+<h2 id="합치기">합치기</h2>
+<p>작성된 표의 일부분을 합치는 기능을 제공합니다.</p>
+
+<h3 id="colspan">colspan</h3>
+<p>가로로 걸치는 셀의 갯수
+<code class="highlighter-rouge">colspan</code> 셀의 너비를 지정합니다.</p>
+
+<h3 id="rowspan">rowspan</h3>
+<p>세로로 걸치는 셀의 갯수
+<code class="highlighter-rouge">rowspan</code> 셀의 높이를 지정합니다.</p>
+
+:ET

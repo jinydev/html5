@@ -1,0 +1,33 @@
+I"�<h1 id="head">head</h1>
+<p>문서의 정보를 출력합니다.</p>
+
+<h2 id="head-테그">head 테그</h2>
+<p>head 영역은 <code class="highlighter-rouge">&lt;head&gt;&lt;/head&gt;</code> 테그로 감싸져 있습니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span> 
+<span class="nt">&lt;/head&gt;</span>
+</code></pre></div></div>
+<h2 id="head-내용">head 내용</h2>
+<p>화면에 보이지 않는 
+문서의 환경, 설정에 관련된 테그를 입력을 합니다.</p>
+
+<ul>
+  <li>타이틀 (title)</li>
+  <li>메타 (meta)</li>
+  <li>스타일 (style)</li>
+  <li>자바스크립트 (script)</li>
+  <li>링크 (link)</li>
+  <li>기본경로 (base)</li>
+</ul>
+
+<h2 id="타이틀">타이틀</h2>
+<p>해더에는 문서의 제목을 제공하기 위하여 title 테그를 사용할 수 있습니다.</p>
+
+<p>타이틀 테그는 head 영역안에 선언을 해주도록 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;title&gt;</span>hello world 페이지 입니다.<span class="nt">&lt;/title&gt;</span>
+</code></pre></div></div>
+
+<h2 id="meta-테그">Meta 테그</h2>
+
+:ET

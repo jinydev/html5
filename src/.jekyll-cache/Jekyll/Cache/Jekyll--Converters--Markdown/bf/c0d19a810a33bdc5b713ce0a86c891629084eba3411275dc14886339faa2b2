@@ -1,0 +1,18 @@
+I"�<h1 id="textarea">textarea</h1>
+<p>내용물을 가지는 입력양식 입니다.</p>
+
+<p>textarea는 시작테크와 종료 테그로 구성이 됩니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;textarea</span> <span class="na">name=</span><span class="s">""</span> <span class="na">id=</span><span class="s">""</span> <span class="na">cols=</span><span class="s">"30"</span> <span class="na">rows=</span><span class="s">"10"</span><span class="nt">&gt;</span>안녕하세요<span class="nt">&lt;/textarea&gt;</span>
+</code></pre></div></div>
+<h2 id="크기설정">크기설정</h2>
+
+<h3 id="넓이-cols">넓이 cols</h3>
+<p>사용 폰트나 언어에 따라서 입력되는 넓이의 크기는 다를 수 있습니다.</p>
+
+<h3 id="줄수-rows">줄수 rows</h3>
+
+<h2 id="내용물">내용물</h2>
+<p>기본값을 입력할 경우, html 작성코드와 들여쓰기 내용도 같이 들어가게 됩니다.</p>
+
+:ET

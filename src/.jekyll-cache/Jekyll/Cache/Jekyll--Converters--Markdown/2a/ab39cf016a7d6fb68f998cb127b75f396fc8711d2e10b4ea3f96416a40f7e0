@@ -1,0 +1,24 @@
+I"P<h1 id="공간-분할">공간 분할</h1>
+<p>영역을 분리하기 위한 테그를 제공합니다.
+디자인을 구성하기 위해서 공간 분할 테그를 많이 사용합니다.</p>
+
+<h2 id="영역">영역</h2>
+
+<h3 id="블럭block-속성">블럭(block) 속성</h3>
+<p>블럭은 단계별로</p>
+
+<h2 id="div">div</h2>
+
+<h3 id="인라인inline">인라인(inline)</h3>
+<p>한 라인안에</p>
+
+<h2 id="span">span</h2>
+
+<p><code class="highlighter-rouge">span*5</code> 와 텝을 선택하면 여러개를 입력할 수 있습니다.</p>
+
+<p>여러줄 입력하기
+vscode에서는 여러줄의 코드를 동시에 작성할 수 있는 기능을 제공합니다. <code class="highlighter-rouge">ctrl+alt</code>를 통하여 여러줄을 선택합니다.</p>
+
+<p>해제는 <code class="highlighter-rouge">esc</code>키를 입력합니다.</p>
+
+:ET
