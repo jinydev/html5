@@ -1,0 +1,32 @@
+I"5<h1 id="html-사이트만들기-연습">HTML 사이트만들기 연습</h1>
+<hr />
+<p>HTML, CSS를 이용하여 사이트를 만들어 보는 따라하기 실습을 연습해 봅니다.</p>
+
+<p><br /></p>
+
+<h2 id="스타일-초기화">스타일 초기화</h2>
+<hr />
+<p>크로스 브라우저에서 공통적인 디자인을 적용하기 위해서 스타일 시트를 초기화 합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">*</span> <span class="p">{</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+    <span class="nl">padding</span><span class="p">:</span><span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">body</span> <span class="p">{</span>
+    <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">li</span> <span class="p">{</span>
+    <span class="nl">list-style</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">a</span> <span class="p">{</span>
+    <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">img</span> <span class="p">{</span>
+    <span class="nl">border</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET
