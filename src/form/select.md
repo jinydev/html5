@@ -52,3 +52,48 @@ label값을 추가 할 수 있습니다.
 ```
 
 
+
+##### select
+여록 목록중 하나를 선택합니다.
+
+```html
+<select>
+    <option></option>
+    <option></option>
+    <option></option>
+</select>
+```
+
+* 속성
+기본값은 1개만 선택됩니다. 
+여러개의 선택을 할 경우에는 multiple 속성을 같이 지정을 합니다.
+여러개의 값을 선택할 수 있습니다.
+
+* 옵션
+
+값을 
+
+
+* optgroup
+여러개의 항목이 많을때, 그룹을 지정할 수 있습니다.
+그룹명을 출력할때는 `label` 속성을 지정합니다.
+```html
+<select>
+    <optgroup label="서울">
+        <option></option>
+        <option></option>
+        <option></option>
+    </optgroup>
+    <optgroup label="경기">
+        <option></option>
+        <option></option>
+        <option></option>
+    </optgroup>
+</select>
+```
+
+라벨로 표시되는 텍스트는 선택할 수 없습니다.
+
+그룹으로 묽인 옵션은 `들여쓰기` 형태로 표현됩니다.
+
+

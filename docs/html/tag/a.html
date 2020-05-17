@@ -125,6 +125,67 @@ id가 중복되더라고 html 문법 오류를 출력하지는 않습니다. 하
 
 <p>위의 소스에서 style=”height:600px;” 이 부분은 CSS 입니다.</p>
 
+<h2 id="앵커-연결">앵커 연결</h2>
+<p>a 링크에 대해서 알아 봅니다.</p>
+
+<h3 id="링크-페이지">링크 페이지</h3>
+<p>연결되는 링크는 href 속성을 부여하면 됩니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"사이트"</span><span class="nt">&gt;</span>이동합니다.<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<ul>
+  <li>외부 사이트 : http 또는 https 프로토콜을 포함한 전체 주소를 입력합니다.</li>
+  <li>절대 주소</li>
+  <li>상대주소</li>
+</ul>
+
+<h3 id="새창열기">새창열기</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"사이트"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>이동합니다.<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h3 id="클릭확인">클릭확인</h3>
+<p>a 링크로 연결시
+한번도 클릭한 적이 없는 경우에는 <code class="highlighter-rouge">파랑색</code>으로 표시됩니다.
+한번 적속한 경우에는 <code class="highlighter-rouge">보라색</code></p>
+
+<h3 id="밑줄">밑줄</h3>
+<p>a 링크는 밑줄이 표시됩니다.</p>
+
+<h3 id="인라인">인라인</h3>
+<p>a 링크는 인라인 속성을 가지고 있습니다.
+여러개의 링크를 작성시 한줄로 배치가 됩니다.</p>
+
+<h3 id="빈링크-1">빈링크</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span> <span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li>ie에서는 내컴퓨터가 선택됩니다.</li>
+  <li>크롬에서는 반응을 하지 않습니다.</li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span> <span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+<p>페이지 제일 상위로 스크롤이 이동하게 됩니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#aaa"</span><span class="nt">&gt;</span> <span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+<p>id 값이 있는 컨덴츠가 있는 경우 스크롤을 이동하게 됩니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#none"</span><span class="nt">&gt;</span> <span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+<p>지정한 id가 없는 경우, 반응을 하지 않고, 현재의 위치에 머무르게 됩니다.
+목적지가 없기 때문에 반응을 하지 않습니다.</p>
+
+<p><br /></p>
+
+<blockquote>
+  <p>퀴즈 : a요소는 텍스트만을 클릭할 수 있습니다. 텍스트 보다 큰 영역을 선택할 수 있도록 버튼화 하기 위해서는 어떻게 해야 할까요?
+=&gt; 정답: a요소의 inline 속성을 block 속성으로 변경합니다. a요소의 크기를 지정할 수 있습니다.</p>
+</blockquote>
+
             </section>
 
             
@@ -148,16 +209,19 @@ id가 중복되더라고 html 문법 오류를 출력하지는 않습니다. 하
         <div class="col-md-3">
             <aside><!--사이드메뉴1-->
 <ul class="list-group">
-    <li class="list-group-item"><a href="/setup">준비 작업</a></li>
-    <li class="list-group-item"><a href="/tag">테그</a></li>
-</ul>
-<br>
-
-<ul class="list-group">
-    <li class="list-group-item"><a href="/css">CSS</a></li>
-    <li class="list-group-item"><a href="/bootstrap">Bootstrap</a></li>
-</ul>
-</aside>
+    <li class="list-group-item"><a href="">about</a></li>
+    <li class="list-group-item"><a href="/setup">setup</a></li>
+    <li class="list-group-item"><a href="/basic">basic</a></li>
+    <li class="list-group-item"><a href="/html">html</a></li>
+    <li class="list-group-item"><a href="/markdown">markdown</a></li>
+    <li class="list-group-item"><a href="/form">form</a></li>
+    <li class="list-group-item"><a href="/css">css</a></li>
+    <li class="list-group-item"><a href="">dom</a></li>
+    <li class="list-group-item"><a href="">http</a></li>
+    <li class="list-group-item"><a href="">layout</a></li>
+    <li class="list-group-item"><a href="">실습</a></li>
+    <li class="list-group-item"><a href="/refs">참고링크</a></li>
+</ul></aside>
             <br>
             
             <!--구글 애드센스2-->

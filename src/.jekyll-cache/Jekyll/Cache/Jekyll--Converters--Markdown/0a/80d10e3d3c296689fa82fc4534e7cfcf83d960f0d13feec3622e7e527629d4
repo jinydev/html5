@@ -1,0 +1,90 @@
+I"�<h1 id="select">Select</h1>
+<p>여러개의 값을 선택할 수 있습니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">""</span> <span class="na">id=</span><span class="s">""</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+
+<h2 id="선택">선택</h2>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">""</span> <span class="na">id=</span><span class="s">""</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"korean"</span><span class="nt">&gt;</span>한국어<span class="nt">&lt;/option&gt;</span>
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+
+<h2 id="기본값">기본값</h2>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">""</span> <span class="na">id=</span><span class="s">""</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"korean"</span><span class="nt">&gt;</span>한국어<span class="nt">&lt;/option&gt;</span>
+    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"english"</span><span class="nt">&gt;</span>영어<span class="nt">&lt;/option&gt;</span>
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+
+<h2 id="다중선택">다중선택</h2>
+<p>multiple 속성을 넣어 다중 선택이 가능하도록 할 수 있습니다.</p>
+
+<h2 id="그룹지정">그룹지정</h2>
+<p>optgroup 을 이용하여 선택되는 항목을 그룹을 정할 수 있습니다.</p>
+
+<p>label값을 추가 할 수 있습니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">""</span> <span class="na">id=</span><span class="s">""</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">"아시아"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"korean"</span><span class="nt">&gt;</span>한국어<span class="nt">&lt;/option&gt;</span>
+    <span class="nt">&lt;/optgroup&gt;</span>
+    <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">"북미"</span><span class="nt">&gt;</span>    
+        <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"english"</span><span class="nt">&gt;</span>영어<span class="nt">&lt;/option&gt;</span>
+    <span class="nt">&lt;/optgroup&gt;</span>
+    
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+
+<h5 id="select-1">select</h5>
+<p>여록 목록중 하나를 선택합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;select&gt;</span>
+    <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+    <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+    <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>속성
+기본값은 1개만 선택됩니다. 
+여러개의 선택을 할 경우에는 multiple 속성을 같이 지정을 합니다.
+여러개의 값을 선택할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>옵션</p>
+  </li>
+</ul>
+
+<p>값을</p>
+
+<ul>
+  <li>optgroup
+여러개의 항목이 많을때, 그룹을 지정할 수 있습니다.
+그룹명을 출력할때는 <code class="highlighter-rouge">label</code> 속성을 지정합니다.
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;select&gt;</span>
+  <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">"서울"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+      <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+      <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+  <span class="nt">&lt;/optgroup&gt;</span>
+  <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">"경기"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+      <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+      <span class="nt">&lt;option&gt;&lt;/option&gt;</span>
+  <span class="nt">&lt;/optgroup&gt;</span>
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>라벨로 표시되는 텍스트는 선택할 수 없습니다.</p>
+
+<p>그룹으로 묽인 옵션은 <code class="highlighter-rouge">들여쓰기</code> 형태로 표현됩니다.</p>
+
+:ET

@@ -1,0 +1,37 @@
+I"W<h2 id="폼form">폼(form)</h2>
+<p>폼은 온라인 서식을 구현할때 사용되는 요소들 입니다.</p>
+
+<h3 id="form">form</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;form&gt;</span>
+내용
+<span class="nt">&lt;/form&gt;</span>
+</code></pre></div></div>
+
+<p>폼 요소 자체가 브라우저에 표시를 하지 않습니다. 폼 요소안에 들어있는 내용만을 출력합니다.</p>
+
+<h4 id="속성">속성</h4>
+
+<ul>
+  <li>
+    <p>action : 폼이 전송하고자 하는 url</p>
+  </li>
+  <li>
+    <p>method : 폼의 정보를 전달하는 방법
+get/post로 선택합니다.</p>
+  </li>
+</ul>
+
+<h3 id="fieldset">fieldset</h3>
+<p>폼 요소의 그룹을 지정합니다. 필드셋을 지정하게 되면, 그룹화된 요소들 주위에 테두리가 표시됩니다.
+필드셋과 같이 제목을 정의하기 위해서 legend 테그를 사용합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;form&gt;</span>
+    <span class="nt">&lt;fieldset&gt;</span>
+        <span class="nt">&lt;legend&gt;</span>필드셋 제목<span class="nt">&lt;/legend&gt;</span>
+        내용...
+    <span class="nt">&lt;/fieldset&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</code></pre></div></div>
+
+:ET

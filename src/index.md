@@ -176,17 +176,4 @@ HTTP 통신 및 meta 설정 방법에 대해서 알아 봅니다.
 
 
 
-## 참고도서
----
-HTML 및 CSS를 학습하기 위한 참고도서 및 동영상 정보 입니다.
 
-* 모던웹을 위한 HTML5 + CSS3 바이블 3판(한빛미디어)  
-[유튜브 동영상](https://www.youtube.com/playlist?list=PLBXuLgInP-5kgzJZRGhpHZINPu-K90jbM)
-
-* Do it! HTML5 + CSS (이지스퍼블리싱)  
-[유튜브 동영상](https://www.youtube.com/playlist?list=PLG7te9eYUi7uvROuVChYgAL5pMK7gnWSp)
-
-* T아카데미 : HTML5 + CSS  
-[유튜브 동영상](https://www.youtube.com/playlist?list=PL9mhQYIlKEhdTdvqzohqVs3RTVHzWPu79)
-
-* [W3schools](https://www.w3schools.com/html/default.asp)

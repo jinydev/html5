@@ -1,0 +1,82 @@
+I"�
+<h1 id="입력을-받는-양식입니다">입력을 받는 양식입니다.</h1>
+
+<h2 id="type-형식-속성">type 형식 속성</h2>
+<p>input은 다양한 속성값을 부여하여 처리를 할 수 있습니다.</p>
+
+<h3 id="text">text</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="submit">submit</h3>
+<p>입력롬을 서버로 전송을 위한 버튼을 출력합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="checkbox">checkbox</h3>
+
+<p>라벨과 연동하여 체크를 처리할 수 있습니다.</p>
+
+<h3 id="file">file</h3>
+
+<h3 id="hidden">hidden</h3>
+
+<h3 id="image">image</h3>
+
+<h3 id="password">password</h3>
+<p>값을 입력할때 * 로 대체되어 표시가 됩니다.</p>
+
+<h3 id="radio">radio</h3>
+<p>여러개의 중에서 하나만 선택할 수 있습니다.
+주의할 점은 <code class="highlighter-rouge">name</code> 속성을 동일하게 부여를 하여야 합니다.</p>
+<h3 id="reset">reset</h3>
+
+<h3 id="butten">butten</h3>
+
+<h2 id="type-값-속성">type 값 속성</h2>
+
+<h3 id="color">color</h3>
+
+<h3 id="date">date</h3>
+
+<h3 id="datetime">datetime</h3>
+
+<h3 id="datetime-local">datetime-local</h3>
+
+<h3 id="email">email</h3>
+
+<h3 id="month">month</h3>
+
+<h3 id="number">number</h3>
+
+<h3 id="range">range</h3>
+
+<h3 id="search">search</h3>
+
+<h3 id="tel">tel</h3>
+
+<h3 id="time">time</h3>
+
+<h3 id="url">url</h3>
+
+<h3 id="week">week</h3>
+
+<h2 id="값설정">값설정</h2>
+
+<p>기본 입력값을 설정합니다.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">value=</span><span class="s">"안녕하세요"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"전송"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="요소들">요소들</h3>
+<p>다양한 폼 요소가 존재합니다.</p>
+
+<h4 id="input">input</h4>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;imput</span> <span class="na">type=</span><span class="s">"????"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>타입에 종류별로 다르게 동작을 합니다.</p>
+:ET

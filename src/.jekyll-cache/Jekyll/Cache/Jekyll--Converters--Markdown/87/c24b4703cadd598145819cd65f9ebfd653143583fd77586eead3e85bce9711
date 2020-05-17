@@ -1,0 +1,43 @@
+I"�<blockquote>
+  <p>CSS3</p>
+  <h2 id="box-shadow">box-shadow</h2>
+</blockquote>
+
+<p>박스 영역에 그림자를 추가합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
+    <span class="nl">box-shadow</span><span class="p">:</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">#000</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>예제코드 : ./dample/shadow10.html</p>
+</blockquote>
+
+<p>첫번째 값
+x축을 기반으로 그림자 위치</p>
+
+<p>두번째값
+y축 기반 그림자 위치</p>
+
+<p>세번째값 
+그림자 번지는 크기값</p>
+
+<p>네번째값
+그림자 색상
+rgb 또는 rgba 모두 사용이 가능합니다.</p>
+
+<h2 id="안쪽-그림자">안쪽 그림자</h2>
+<p>안쪽 부분에 그림자를 넣고자 할때에는 <code class="highlighter-rouge">inset</code> 값을 추가합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
+    <span class="nl">box-shadow</span><span class="p">:</span> <span class="nb">inset</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">#000</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="그림자의-컨덴츠-영역">그림자의 컨덴츠 영역</h2>
+<p>그림자는 다른 컨덴츠 요소에 영향을 미치지 않습니다.</p>
+
+<p>그림자로 인하여 영역이 겹치는 문제가 있는 경우, 마진 또는 패딩값을 추가로 주어야 합니다.</p>
+
+:ET

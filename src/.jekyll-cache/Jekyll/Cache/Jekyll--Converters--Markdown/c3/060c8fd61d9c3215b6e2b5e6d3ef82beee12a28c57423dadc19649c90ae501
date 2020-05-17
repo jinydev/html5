@@ -1,0 +1,16 @@
+I"<h1 id="루비-문자">루비 문자</h1>
+<hr />
+<p>아시아 문화권을 위한 글자 출력을 도와주는 테그 입니다.</p>
+
+<h2 id="발음기호">발음기호</h2>
+<hr />
+<p>아시아의 문자의 경우, 글자의 발음기호등의 표시를 같이 하는 경우가 있습니다.<br />
+이때 글씨의 위에 작은 글씨로 보조 설명을 넣게 되는데 이를 루비 문자라고 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;rudy&gt;</span>
+    <span class="nt">&lt;span&gt;</span>대한민국<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;rt&gt;</span>대한민국<span class="nt">&lt;/rt&gt;</span>
+<span class="nt">&lt;/ruby&gt;</span>
+</code></pre></div></div>
+
+:ET

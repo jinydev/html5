@@ -1,0 +1,12 @@
+I"�<h1 id="hr">HR</h1>
+<hr />
+<p>hr은 가로줄을 의미하는 <code class="highlighter-rouge">horizontal rule</code> 을 의미합니다.</p>
+
+<p>hr은 단일 테그로 내용이 없는 테그 입니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>안녕하세요.
+<span class="nt">&lt;hr&gt;</span>
+반갑습니다.
+</code></pre></div></div>
+
+:ET

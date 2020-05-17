@@ -75,6 +75,101 @@
   <li>테이블 합치기</li>
 </ul>
 
+<h2 id="리스트">리스트</h2>
+<p>순서형, 비순서형,</p>
+
+<h3 id="비순서형-목록-unordered-list">비순서형 목록 (Unordered List)</h3>
+<p>특징 li 마다 블릿이 제공됩니다.
+연속적인 컨덴츠를 나열할때 용이합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>상위<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>하위<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>악세사리<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>주의:
+ul 테그와 li 테그 사이에는 다른 요소의 테그를 삽입할 수 없습니다.
+li와 li 사이에도 다른 요소의 테그를 삽입할 수 없습니다.</p>
+</blockquote>
+
+<h4 id="중첩목록">중첩목록</h4>
+<p>li안에는 또다른 ul 목록을 넣을 수 있습니다.</p>
+
+<p>목록이 중첩하게 되면 <code class="highlighter-rouge">들여쓰기</code> 형태로 표현이 됩니다.</p>
+
+<h3 id="순서형-목록-ordered-list">순서형 목록 (Ordered List)</h3>
+<p>ol로 표시를 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>1일차 코스<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>2일차 코스<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>3일차 코스<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
+
+<h4 id="중첩목록-1">중첩목록</h4>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>1일차 코스
+        <span class="nt">&lt;ol&gt;</span>
+            <span class="nt">&lt;li&gt;</span>오전 일정<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>오후 일정<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ol&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>2일차 코스<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>3일차 코스<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
+
+<h3 id="병합중첩">병합중첩</h3>
+<p>ul 목록 서브로 ol 목록을 삽입하거나, ol 목록에서 ul 목록을 서브로 삽입할 수도 있습니다.</p>
+
+<h3 id="정의형-목록">정의형 목록</h3>
+<p>dl, dt, dd</p>
+
+<p>사전적의미를 표현할때 자주 사용됩니다. 그외에는 잘 사용하지 않는 테그 입니다.</p>
+
+<ul>
+  <li>
+    <p>dl : 정의형 목록 지정
+defines a description list</p>
+  </li>
+  <li>
+    <p>dt : 용어정의
+defines terms 또는 name</p>
+  </li>
+  <li>
+    <p>dd : 정의 설명
+describes each term</p>
+  </li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dl&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>what is Web<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>web is ....<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>....<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span>
+</code></pre></div></div>
+
+<p>dt /dd 는 순서대로 한개의 묽음으로 처리하여 작성을 해주어야 합니다.
+dd는 한개 이상으로 반드시 같이 정의해 주어야 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dl&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>what is Web<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>web is ....<span class="nt">&lt;/dd&gt;</span>
+
+    <span class="nt">&lt;dt&gt;</span>what is interner<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>internet is ....<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span>
+</code></pre></div></div>
+
+<p>dl은 여러개 쌍의 dt/dd를 포함할 수 있습니다.</p>
+
+<p><br /></p>
+
             </section>
 
             
@@ -98,16 +193,19 @@
         <div class="col-md-3">
             <aside><!--사이드메뉴1-->
 <ul class="list-group">
-    <li class="list-group-item"><a href="/setup">준비 작업</a></li>
-    <li class="list-group-item"><a href="/tag">테그</a></li>
-</ul>
-<br>
-
-<ul class="list-group">
-    <li class="list-group-item"><a href="/css">CSS</a></li>
-    <li class="list-group-item"><a href="/bootstrap">Bootstrap</a></li>
-</ul>
-</aside>
+    <li class="list-group-item"><a href="">about</a></li>
+    <li class="list-group-item"><a href="/setup">setup</a></li>
+    <li class="list-group-item"><a href="/basic">basic</a></li>
+    <li class="list-group-item"><a href="/html">html</a></li>
+    <li class="list-group-item"><a href="/markdown">markdown</a></li>
+    <li class="list-group-item"><a href="/form">form</a></li>
+    <li class="list-group-item"><a href="/css">css</a></li>
+    <li class="list-group-item"><a href="">dom</a></li>
+    <li class="list-group-item"><a href="">http</a></li>
+    <li class="list-group-item"><a href="">layout</a></li>
+    <li class="list-group-item"><a href="">실습</a></li>
+    <li class="list-group-item"><a href="/refs">참고링크</a></li>
+</ul></aside>
             <br>
             
             <!--구글 애드센스2-->
