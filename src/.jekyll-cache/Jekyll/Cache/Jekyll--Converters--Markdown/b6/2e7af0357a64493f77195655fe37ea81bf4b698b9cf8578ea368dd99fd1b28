@@ -1,8 +1,8 @@
-I"�	<h2 id="부트스트랩-collapse">부트스트랩 collapse</h2>
+I"�	<h2 id="부트스트랩-collapse">부트스트랩 collapse</h2>
 
 <p>collapse 기능은 어떠한 객체를 보이거나 숨김을 처리 합니다.</p>
 
-<p>collapse를 사용하기 위해서는 먼저 <code class="highlighter-rouge">panel-group</code> 클래스를 사용합니다.</p>
+<p>collapse를 사용하기 위해서는 먼저 <code class="language-plaintext highlighter-rouge">panel-group</code> 클래스를 사용합니다.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"accordion"</span> <span class="na">class=</span><span class="s">"panel-group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pannel pannel-primary"</span><span class="nt">&gt;</span>

@@ -1,4 +1,4 @@
-I"�<p>속성</p>
+I"�<p>속성</p>
 
 <h2 id="가시속성">가시속성</h2>
 <p>화면에 보이는 속성을 지정합니다.</p>
@@ -48,12 +48,12 @@ display 속성과 차이점은 화면에 요소의 출력을 제한할때, 요�
 
 <p>값은 0~1사이의 값을 지정합니다.</p>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">opacity</span><span class="o">:</span> <span class="nt">0</span><span class="nc">.8</span><span class="o">;</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">opacity</span><span class="o">:</span> <span class="err">0</span><span class="o">.</span><span class="err">8</span><span class="o">;</span>
 </code></pre></div></div>
 
 <p>색상을 지정과 투명도를 같이 지정할 수 있습니다.</p>
 
-<p><code class="highlighter-rouge">rgba()</code>함수는 4개의 인자값을 전달 받습니다. 마지막은 투명도 입니다.</p>
+<p><code class="language-plaintext highlighter-rouge">rgba()</code>함수는 4개의 인자값을 전달 받습니다. 마지막은 투명도 입니다.</p>
 
 <h2 id="박스">박스</h2>
 
@@ -62,7 +62,7 @@ display 속성과 차이점은 화면에 요소의 출력을 제한할때, 요�
 
 <h3 id="폭과-높이-설정">폭과 높이 설정</h3>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>width:300;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>width:300;
 width:50;
 backgound-color:red;
 </code></pre></div></div>
@@ -82,15 +82,15 @@ backgound-color:red;
   <li>색상</li>
 </ul>
 
-<p><code class="highlighter-rouge">border-width</code>는 테두리의 두께를 의미합니다.</p>
+<p><code class="language-plaintext highlighter-rouge">border-width</code>는 테두리의 두께를 의미합니다.</p>
 
-<p><code class="highlighter-rouge">border-style</code>은 테두리의 종류, 다양한 종류가 존재합니다.</p>
+<p><code class="language-plaintext highlighter-rouge">border-style</code>은 테두리의 종류, 다양한 종류가 존재합니다.</p>
 
-<p><code class="highlighter-rouge">border-color</code>는 테두리의 색상을 말합니다.</p>
+<p><code class="language-plaintext highlighter-rouge">border-color</code>는 테두리의 색상을 말합니다.</p>
 
-<p>3가지의 속성값을 <code class="highlighter-rouge">border</code> 속성으로 동시에 적용을 할 수 있습니다.</p>
+<p>3가지의 속성값을 <code class="language-plaintext highlighter-rouge">border</code> 속성으로 동시에 적용을 할 수 있습니다.</p>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border</span><span class="o">:</span> <span class="nt">10px</span> <span class="nt">solid</span> <span class="nt">red</span><span class="o">;</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border</span><span class="o">:</span> <span class="err">10</span><span class="nt">px</span> <span class="nt">solid</span> <span class="nt">red</span><span class="o">;</span>
 </code></pre></div></div>
 
 :ET

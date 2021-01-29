@@ -1,4 +1,4 @@
-I"|<h1 id="pre">pre</h1>
+I"�<h1 id="pre">pre</h1>
 <hr />
 <p>스페이스가 포함된 공간을 모두 표시하는 테그 입니다.</p>
 
@@ -15,7 +15,7 @@
 <h2 id="스타일-표시">스타일 표시</h2>
 <hr />
 <p>css 스타일을 통하여 pre 테그와 동일한 속성을 부여할 수 있습니다.
-<code class="highlighter-rouge">white-space</code> 속성을 사용합니다.</p>
+<code class="language-plaintext highlighter-rouge">white-space</code> 속성을 사용합니다.</p>
 
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">p</span> <span class="p">{</span>
     <span class="nl">white-space</span><span class="p">:</span><span class="n">pre</span>

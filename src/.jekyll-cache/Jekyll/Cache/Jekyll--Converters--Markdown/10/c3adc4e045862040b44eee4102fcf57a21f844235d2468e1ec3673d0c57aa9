@@ -1,4 +1,4 @@
-I".	<h2 id="html-구조">html 구조</h2>
+I"z	<h2 id="html-구조">html 구조</h2>
 
 <h3 id="시작요소">시작요소</h3>
 <p>html 문서의 시작과 끝을 표시합니다.</p>
@@ -7,7 +7,7 @@
 </code></pre></div></div>
 
 <p>html 테그 안에는 2개의 영역이 존재 합니다.
-<code class="highlighter-rouge">head</code> 영역과 <code class="highlighter-rouge">body</code> 영역입니다.</p>
+<code class="language-plaintext highlighter-rouge">head</code> 영역과 <code class="language-plaintext highlighter-rouge">body</code> 영역입니다.</p>
 
 <h3 id="head-영역">head 영역</h3>
 <p>해드 영역은 head 테그를 사용합니다.</p>
@@ -45,7 +45,7 @@
 <hr />
 <p>테그를 통하여 요소를 정의 합니다.</p>
 
-<p>테그는 <code class="highlighter-rouge">&lt;</code>와 <code class="highlighter-rouge">&gt;</code> 사이에 요소명을 지정합니다.</p>
+<p>테그는 <code class="language-plaintext highlighter-rouge">&lt;</code>와 <code class="language-plaintext highlighter-rouge">&gt;</code> 사이에 요소명을 지정합니다.</p>
 
 <p>테그는 시작테그와 종료테그로 이루어 집니다.</p>
 

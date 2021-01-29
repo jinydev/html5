@@ -1,0 +1,128 @@
+I"�<h1 id="이미지-태그">이미지 태그</h1>
+
+<p><img src="./img/html503_04.png" alt="html503_04" /></p>
+
+<p><img src="./img/html503_05.png" alt="html503_05" /></p>
+
+<p><img src="./img/html503_06.png" alt="html503_06" /></p>
+
+<h2 id="학습목표">학습목표</h2>
+
+<ul>
+  <li>문서에 이미지 삽입에 대해 살펴볼 수 있다.</li>
+  <li>이미지 파일 포맷에 대해 이해할 수 있다.</li>
+  <li>대체 이미지 사용방법에 대해 배울 수 있다.</li>
+  <li>이미지 경로 설정 방법을 배울 수 있다.</li>
+</ul>
+
+<h2 id="학습안내">학습안내</h2>
+
+<ul>
+  <li>웹 문서와 이미지</li>
+  <li>이미지 삽입</li>
+  <li>상대경로와 절대경로</li>
+</ul>
+
+<h2 id="01-웹-문서와-이미지">01. 웹 문서와 이미지</h2>
+
+<p><img src="./img/html503_10.png" alt="html503_10" /></p>
+
+<p><img src="./img/html503_11.png" alt="html503_11" /></p>
+
+<p><img src="./img/html503_12.png" alt="html503_12" /></p>
+
+<p><img src="./img/html503_13.png" alt="html503_13" /></p>
+
+<p><img src="./img/html503_14.png" alt="html503_14" /></p>
+
+<h2 id="02-이미지-삽입">02. 이미지 삽입</h2>
+
+<p><img src="./img/html503_16.png" alt="html503_16" /></p>
+
+<p><img src="./img/html503_17.png" alt="html503_17" /></p>
+
+<p><img src="./img/html503_18.png" alt="html503_18" /></p>
+
+<p><img src="./img/html503_19.png" alt="html503_19" /></p>
+
+<p><img src="./img/html503_20.png" alt="html503_20" /></p>
+
+<p><img src="./img/html503_21.png" alt="html503_21" /></p>
+
+<p><img src="./img/html503_22.png" alt="html503_22" /></p>
+
+<p><img src="./img/html503_23.png" alt="html503_23" /></p>
+
+<p><img src="./img/html503_24.png" alt="html503_24" /></p>
+
+<p><img src="./img/html503_25.png" alt="html503_25" /></p>
+
+<p><img src="./img/html503_26.png" alt="html503_26" /></p>
+
+<p><img src="./img/html503_27.png" alt="html503_27" /></p>
+
+<p><img src="./img/html503_28.png" alt="html503_28" /></p>
+
+<p><img src="./img/html503_29.png" alt="html503_29" /></p>
+
+<p><img src="./img/html503_30.png" alt="html503_30" /></p>
+
+<p><img src="./img/html503_31.png" alt="html503_31" /></p>
+
+<p><img src="./img/html503_32.png" alt="html503_32" /></p>
+
+<p><img src="./img/html503_33.png" alt="html503_33" /></p>
+
+<p><img src="./img/html503_34.png" alt="html503_34" /></p>
+
+<p><img src="./img/html503_35.png" alt="html503_35" /></p>
+
+<p><img src="./img/html503_36.png" alt="html503_36" /></p>
+
+<p><img src="./img/html503_37.png" alt="html503_37" /></p>
+
+<h2 id="03-상대-경로와-절대-경로">03. 상대 경로와 절대 경로</h2>
+
+<p><img src="./img/html503_39.png" alt="html503_39" /></p>
+
+<p><img src="./img/html503_40.png" alt="html503_40" /></p>
+
+<p><img src="./img/html503_41.png" alt="html503_41" /></p>
+
+<p><img src="./img/html503_42.png" alt="html503_42" /></p>
+
+<p><img src="./img/html503_43.png" alt="html503_43" /></p>
+
+<p><img src="./img/html503_44.png" alt="html503_44" /></p>
+
+<p><img src="./img/html503_45.png" alt="html503_45" /></p>
+
+<p><img src="./img/html503_46.png" alt="html503_46" /></p>
+
+<p><img src="./img/html503_47.png" alt="html503_47" /></p>
+
+<p><img src="./img/html503_48.png" alt="html503_48" /></p>
+
+<p><img src="./img/html503_49.png" alt="html503_49" /></p>
+
+<p><img src="./img/html503_50.png" alt="html503_50" /></p>
+
+<p><img src="./img/html503_51.png" alt="html503_51" /></p>
+
+<p><img src="./img/html503_52.png" alt="html503_52" /></p>
+
+<p><img src="./img/html503_53.png" alt="html503_53" /></p>
+
+<p><img src="./img/html503_54.png" alt="html503_54" /></p>
+
+<h2 id="학습정리">학습정리</h2>
+
+<p>이번 시간에는 다음과 같은 내용을 학습하였습니다.</p>
+
+<ul>
+  <li>웹 문서와 이미지</li>
+  <li>이미지 삽입</li>
+  <li>상대경로와 절대 경로</li>
+</ul>
+
+:ET

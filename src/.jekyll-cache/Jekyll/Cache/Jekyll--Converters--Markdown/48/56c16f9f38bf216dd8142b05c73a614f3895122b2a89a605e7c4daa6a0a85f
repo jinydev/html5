@@ -1,13 +1,13 @@
-I"�<h1 id="멀티-백그라운드">멀티 백그라운드</h1>
+I"�<h1 id="멀티-백그라운드">멀티 백그라운드</h1>
 <hr />
 
 <p>css2에서는 하나의 요소에 한개의 배경만 설정이 가능하였습니다.</p>
 
 <p>css3로 넘어오면서 하나의 요소에 여러개의 배경을 설정할 수 있게 되었습니다.</p>
 
-<p><code class="highlighter-rouge">쉼표</code>를 통하여 여러개의 배경 설정을 지정할 수 있습니다.</p>
+<p><code class="language-plaintext highlighter-rouge">쉼표</code>를 통하여 여러개의 배경 설정을 지정할 수 있습니다.</p>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background</span><span class="o">:</span> <span class="err">설정</span><span class="nt">1</span><span class="o">,</span> <span class="err">설정</span><span class="nt">2</span><span class="o">,</span> <span class="err">설정</span><span class="nt">3</span><span class="o">;</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background</span><span class="o">:</span> <span class="nt">설정1</span><span class="o">,</span> <span class="nt">설정2</span><span class="o">,</span> <span class="nt">설정3</span><span class="o">;</span>
 </code></pre></div></div>
 
 <blockquote>

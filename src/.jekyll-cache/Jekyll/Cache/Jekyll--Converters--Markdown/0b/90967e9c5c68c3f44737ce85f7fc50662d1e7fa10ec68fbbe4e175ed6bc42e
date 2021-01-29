@@ -1,4 +1,4 @@
-I"�'<h1 id="gradient">gradient</h1>
+I"J(<h1 id="gradient">gradient</h1>
 <hr />
 
 <p>멀티 백그라운드 기능을 같이 사용할 수도 없습니다.</p>
@@ -19,11 +19,11 @@
   <p>예제코드: ./sample/gradient01.html</p>
 </blockquote>
 
-<p>기본값으로 첫번째 지정한 색이 <code class="highlighter-rouge">위쪽</code>, 두번째 지정한 색이 <code class="highlighter-rouge">아래쪽</code>에 배치를 하게 됩니다.</p>
+<p>기본값으로 첫번째 지정한 색이 <code class="language-plaintext highlighter-rouge">위쪽</code>, 두번째 지정한 색이 <code class="language-plaintext highlighter-rouge">아래쪽</code>에 배치를 하게 됩니다.</p>
 
 <h3 id="방향으로-지정하기">방향으로 지정하기</h3>
 
-<p><code class="highlighter-rouge">to 방향</code>을 추가하여 <code class="highlighter-rouge">도작 지점</code>을 지정합니다.</p>
+<p><code class="language-plaintext highlighter-rouge">to 방향</code>을 추가하여 <code class="language-plaintext highlighter-rouge">도작 지점</code>을 지정합니다.</p>
 
 <p>왼쪽에서 오른쪽으로 gradient 적용하기</p>
 
@@ -77,7 +77,7 @@
 다만, gradient를 색상값을 투명도가 지정된 방식으로 적용할 경우, 배경색을 같이 사용을 할 수 있습니다.</p>
 
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
-    <span class="nl">background</span><span class="p">:</span> <span class="n">linear-gradient</span><span class="p">(</span><span class="n">to</span> <span class="nb">left</span><span class="p">,</span> <span class="n">rega</span><span class="p">(),</span> <span class="n">rega</span><span class="p">())</span> <span class="err">배경색</span><span class="p">;</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="n">linear-gradient</span><span class="p">(</span><span class="n">to</span> <span class="nb">left</span><span class="p">,</span> <span class="n">rega</span><span class="p">(),</span> <span class="n">rega</span><span class="p">())</span> <span class="n">배경색</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -115,7 +115,7 @@
 <h3 id="circle-설정">circle 설정</h3>
 <p>radial은 삽입하고자 하는 영역의 비율대로 원형모향으로 들어가게 됩니다.</p>
 
-<p>만일 영역이 정사각이 아닌 직사각형 일때 원형이 아닌 <code class="highlighter-rouge">타원</code> 모양으로 들거가게 됩니다.</p>
+<p>만일 영역이 정사각이 아닌 직사각형 일때 원형이 아닌 <code class="language-plaintext highlighter-rouge">타원</code> 모양으로 들거가게 됩니다.</p>
 
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
     <span class="nl">width</span><span class="p">:</span><span class="m">400px</span><span class="p">;</span> <span class="nl">height</span><span class="p">:</span><span class="m">200px</span><span class="p">;</span>
@@ -129,7 +129,7 @@
   <p>예제코드: ./sample/gradient23.html</p>
 </blockquote>
 
-<p>이를 원형 모양으로 들어가게 보정을 하기 위해서는 <code class="highlighter-rouge">circle</code> 옵션을 부여합니다.</p>
+<p>이를 원형 모양으로 들어가게 보정을 하기 위해서는 <code class="language-plaintext highlighter-rouge">circle</code> 옵션을 부여합니다.</p>
 
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
     <span class="nl">width</span><span class="p">:</span><span class="m">200px</span><span class="p">;</span> <span class="nl">height</span><span class="p">:</span><span class="m">200px</span><span class="p">;</span>

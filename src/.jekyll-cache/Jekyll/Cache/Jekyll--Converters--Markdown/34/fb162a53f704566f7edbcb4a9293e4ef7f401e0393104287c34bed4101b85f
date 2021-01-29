@@ -1,0 +1,39 @@
+I"+	<h1 id="class-속성을-이용하여-요소를-선택합니다">class 속성을 이용하여 요소를 선택합니다.</h1>
+
+<h2 id="클래스">클래스</h2>
+<p>테그에 클래스 속성을 정의 할 수 있습니다.</p>
+
+<h3 id="속성지정">속성지정</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"heading"</span><span class="nt">&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
+</code></pre></div></div>
+
+<h2 id="css-선택">CSS 선택</h2>
+<p>css를 이용하여 클래스 속성을 선택할 수 있습니다.</p>
+
+<h3 id="단일-선택">단일 선택</h3>
+<p>클래스를 선택할 때에는 <code class="language-plaintext highlighter-rouge">.</code>를 사용합니다.</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.heading</span> <span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="다중-틀래스-선택">다중 틀래스 선택</h3>
+<p>여러개의 클래스 속성값을 가지는 요소를 선택할 수 있습니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.a.b.c</span> <span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>클래스 a, 클래스 b, 클래스 c 3개가 선택되어 있는 요소를 선택합니다.</p>
+
+<h2 id="클래스-적용">클래스 적용</h2>
+
+<h3 id="다중-클래스-적용">다중 클래스 적용</h3>
+<p>하나의 테그는 여러개의 클래스를 선택할 수 있습니다.
+여러개의 클래스를 선택할 때에는 <code class="language-plaintext highlighter-rouge">스페이스</code>로 구분을 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"heading bold"</span><span class="nt">&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
+</code></pre></div></div>
+
+:ET

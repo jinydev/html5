@@ -1,13 +1,13 @@
-I"�<h1 id="기본basic">기본(basic)</h1>
+I":	<h1 id="기본basic">기본(basic)</h1>
 
 <p>웹기반의 서비스들의 화면은 브라우저를 통하여 HTML 문서가 랜더링하여 출력하게 됩니다. HTML은 브라우저에서 화면을 처리할 할 수 있도로 정의하는 마크업 언어 입니다. 
 자신의 서비스가 좋은 화면으로 출력을 하기 위해서는 약간의 html 코드에 대한 정보를 가지고 있어야 합니다.</p>
 
 <h2 id="파일-생성">파일 생성</h2>
 <p>먼저, 웹 문서 파일을 하나 생성하여야 합니다. vscode를 실행하고 새로운 파일을 생성합니다. 
-<code class="highlighter-rouge">file-&gt;new file</code>을 선택하여 새로운 파일을 생성합니다. 파일명은 <code class="highlighter-rouge">hello.html</code>로 입력을 합니다.</p>
+<code class="language-plaintext highlighter-rouge">file-&gt;new file</code>을 선택하여 새로운 파일을 생성합니다. 파일명은 <code class="language-plaintext highlighter-rouge">hello.html</code>로 입력을 합니다.</p>
 
-<p>웹문서의 파일은 <code class="highlighter-rouge">.html</code> 또는 <code class="highlighter-rouge">.htm</code> 확장자를 가지고 있습니다.</p>
+<p>웹문서의 파일은 <code class="language-plaintext highlighter-rouge">.html</code> 또는 <code class="language-plaintext highlighter-rouge">.htm</code> 확장자를 가지고 있습니다.</p>
 
 <blockquote>
   <p>확장자
@@ -15,7 +15,7 @@
 </blockquote>
 
 <h2 id="헬로우-월드">헬로우 월드</h2>
-<p>웹브라우저에 <code class="highlighter-rouge">Hello world</code>를 출력합니다.
+<p>웹브라우저에 <code class="language-plaintext highlighter-rouge">Hello world</code>를 출력합니다.
 <a href="./hello">학습하기</a></p>
 
 <h2 id="html-구조">HTML 구조</h2>

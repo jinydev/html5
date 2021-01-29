@@ -1,4 +1,4 @@
-I"7
+I"c
 <blockquote>
   <p>CSS3</p>
   <h1 id="outline">outline</h1>
@@ -36,9 +36,9 @@
 
 <h2 id="outline-offset">outline-offset</h2>
 <p>아웃라인과 외각선간의 간격은 없습니다. 중간에 간격을 두기 위해서는
-<code class="highlighter-rouge">outline-offset</code> 속성을 주어야 합니다.</p>
+<code class="language-plaintext highlighter-rouge">outline-offset</code> 속성을 주어야 합니다.</p>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">outline-offset</span><span class="o">:</span> <span class="nt">10px</span><span class="o">;</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">outline-offset</span><span class="o">:</span> <span class="err">10</span><span class="nt">px</span><span class="o">;</span>
 </code></pre></div></div>
 
 <blockquote>

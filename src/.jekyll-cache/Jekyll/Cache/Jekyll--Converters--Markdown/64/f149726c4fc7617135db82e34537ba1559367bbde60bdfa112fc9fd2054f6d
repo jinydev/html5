@@ -1,4 +1,4 @@
-I"�<h1 id="css3-정리">CSS3 정리</h1>
+I"=<h1 id="css3-정리">CSS3 정리</h1>
 <p>CSS2에서 3로 넘어오면서 많은 기능이 추가되었습니다.</p>
 
 <h2 id="border-radiis">border-radiis</h2>
@@ -11,7 +11,7 @@
 <h3 id="radius-전체-적용">radius 전체 적용</h3>
 <p>사각형 전체 모서리에 곡률을 적용을 할때에는 한개의 값만 지정하면 됩니다.</p>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="nt">50px</span><span class="o">;</span> 
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="err">50</span><span class="nt">px</span><span class="o">;</span> 
 </code></pre></div></div>
 
 <blockquote>
@@ -21,7 +21,7 @@
 <h3 id="곡율적용으로-원-만들기">곡율적용으로 원 만들기</h3>
 <p>곡율을 사이즈의 50% 이상값을 주게 되면 곡율로 인하여 원형 모향이 됩니다.</p>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="nt">50</span><span class="o">%;</span> 
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="err">50</span><span class="o">%;</span> 
 </code></pre></div></div>
 
 <blockquote>
@@ -34,11 +34,11 @@
 
 <h3 id="모서리-다르게-지정하기">모서리 다르게 지정하기</h3>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="nt">50px</span> <span class="nt">25px</span><span class="o">;</span> 
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="err">50</span><span class="nt">px</span> <span class="err">25</span><span class="nt">px</span><span class="o">;</span> 
 </code></pre></div></div>
 
 <p>값을 지정하는 방법은 패딩값을 설정하는 규칙과 동일합니다.
-패딩의 경우 첫번째 값이 <code class="highlighter-rouge">좌/우</code>에 적용되고, 두번째 값은 <code class="highlighter-rouge">상/하</code>에 적용됩니다.</p>
+패딩의 경우 첫번째 값이 <code class="language-plaintext highlighter-rouge">좌/우</code>에 적용되고, 두번째 값은 <code class="language-plaintext highlighter-rouge">상/하</code>에 적용됩니다.</p>
 
 <p>radius의 경우에는 반시계 45도 회전하여 각각의 모서리에 적용이 되는 형태 입니다.</p>
 
@@ -47,14 +47,14 @@
 
 <h3 id="3개-적용">3개 적용</h3>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="nt">50px</span> <span class="nt">25px</span> <span class="nt">10px</span><span class="o">;</span> 
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="err">50</span><span class="nt">px</span> <span class="err">25</span><span class="nt">px</span> <span class="err">10</span><span class="nt">px</span><span class="o">;</span> 
 </code></pre></div></div>
 
 <p>세번째 값은 오른쪽 하단에 적용이 됩니다.</p>
 
 <h3 id="4개-적용">4개 적용</h3>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="nt">50px</span> <span class="nt">25px</span> <span class="nt">10px</span> <span class="nt">3px</span><span class="o">;</span> 
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-radius</span><span class="o">:</span> <span class="err">50</span><span class="nt">px</span> <span class="err">25</span><span class="nt">px</span> <span class="err">10</span><span class="nt">px</span> <span class="err">3</span><span class="nt">px</span><span class="o">;</span> 
 </code></pre></div></div>
 
 <p>네번째 값은 왼쪽 하단에 적용이 됩니다.</p>
@@ -65,19 +65,19 @@
 <p>특정 모서리만 곡율을 적용할 수 있습니다.
 이때는 모서리를 지정하는 속성을 선택합니다.</p>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-bottom-left-radius</span><span class="o">:</span> <span class="nt">50px</span><span class="o">;</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-bottom-left-radius</span><span class="o">:</span> <span class="err">50</span><span class="nt">px</span><span class="o">;</span>
 </code></pre></div></div>
 <blockquote>
   <p>예제코드 : ./sample/radius6.html</p>
 </blockquote>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-bottom-right-radius</span><span class="o">:</span> <span class="nt">50px</span><span class="o">;</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-bottom-right-radius</span><span class="o">:</span> <span class="err">50</span><span class="nt">px</span><span class="o">;</span>
 </code></pre></div></div>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-top-left-radius</span><span class="o">:</span> <span class="nt">50px</span><span class="o">;</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-top-left-radius</span><span class="o">:</span> <span class="err">50</span><span class="nt">px</span><span class="o">;</span>
 </code></pre></div></div>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-top-right-radius</span><span class="o">:</span> <span class="nt">50px</span><span class="o">;</span>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">border-top-right-radius</span><span class="o">:</span> <span class="err">50</span><span class="nt">px</span><span class="o">;</span>
 </code></pre></div></div>
 
 <h2 id="곡율-적용하여-버튼-만들기">곡율 적용하여 버튼 만들기</h2>

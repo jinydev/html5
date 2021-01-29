@@ -1,4 +1,4 @@
-I"^ <h1 id="html5">html5</h1>
+I"q <h1 id="html5">html5</h1>
 <p>기존 html4보다 html5는 좀더 다양한 테그들이 추가 되어 있습니다.</p>
 
 <h2 id="레이아웃-요소들">레이아웃 요소들</h2>
@@ -47,7 +47,7 @@ main은 페이지당 하나만 존재합니다. 또한 다른 header나 footer �
 
 <p>html4 에서 자주 사용하던</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div id="content"&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div id="content"&gt;
 &lt;/div&gt;
 </code></pre></div></div>
 

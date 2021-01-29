@@ -1,10 +1,10 @@
-I"N<h1 id="선택자">선택자</h1>
+I"a<h1 id="선택자">선택자</h1>
 <p>CSS는 html의 요소를 선택하여 스타일을 적용합니다. 따라서 요소를 선택이 필요 합니다.</p>
 
 <p>다양한 선택자들이 존재합니다.</p>
 
 <h2 id="전체-선택자">전체 선택자</h2>
-<p>전체의 요소를 선택할때에는 <code class="highlighter-rouge">*</code>를 사용합니다.</p>
+<p>전체의 요소를 선택할때에는 <code class="language-plaintext highlighter-rouge">*</code>를 사용합니다.</p>
 
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nt">style</span><span class="o">&gt;</span>
 <span class="o">*</span> <span class="p">{</span>

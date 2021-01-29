@@ -1,4 +1,4 @@
-I"�
+I"�
 <h1 id="입력을-받는-양식입니다">입력을 받는 양식입니다.</h1>
 
 <h2 id="type-형식-속성">type 형식 속성</h2>
@@ -30,7 +30,7 @@
 
 <h3 id="radio">radio</h3>
 <p>여러개의 중에서 하나만 선택할 수 있습니다.
-주의할 점은 <code class="highlighter-rouge">name</code> 속성을 동일하게 부여를 하여야 합니다.</p>
+주의할 점은 <code class="language-plaintext highlighter-rouge">name</code> 속성을 동일하게 부여를 하여야 합니다.</p>
 <h3 id="reset">reset</h3>
 
 <h3 id="butten">butten</h3>

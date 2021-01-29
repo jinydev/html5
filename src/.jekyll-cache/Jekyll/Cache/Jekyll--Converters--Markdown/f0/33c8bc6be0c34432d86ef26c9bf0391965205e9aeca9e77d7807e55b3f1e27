@@ -1,4 +1,4 @@
-I"m<h1 id="목록-및-표출력">목록 및 표출력</h1>
+I"�<h1 id="목록-및-표출력">목록 및 표출력</h1>
 <p>메뉴 및 데이터등 다수의 데이터를 출력할 수 있는 테그들을 학습합니다.</p>
 
 <h2 id="목록"><a href="list">목록</a></h2>
@@ -41,7 +41,7 @@ li와 li 사이에도 다른 요소의 테그를 삽입할 수 없습니다.</p>
 <h4 id="중첩목록">중첩목록</h4>
 <p>li안에는 또다른 ul 목록을 넣을 수 있습니다.</p>
 
-<p>목록이 중첩하게 되면 <code class="highlighter-rouge">들여쓰기</code> 형태로 표현이 됩니다.</p>
+<p>목록이 중첩하게 되면 <code class="language-plaintext highlighter-rouge">들여쓰기</code> 형태로 표현이 됩니다.</p>
 
 <h3 id="순서형-목록-ordered-list">순서형 목록 (Ordered List)</h3>
 <p>ol로 표시를 합니다.</p>
