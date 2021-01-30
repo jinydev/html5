@@ -1,0 +1,26 @@
+I"�<blockquote>
+  <p>css3</p>
+</blockquote>
+
+<h2 id="clip">clip</h2>
+<p><code class="language-plaintext highlighter-rouge">배경색</code>에 대한 범위를 지정합니다.</p>
+
+<h3 id="border-box">border-box</h3>
+<p>기본값.
+외각선 영역까지 배경색를 배치 합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-clip</span><span class="nd">:border-box</span><span class="o">;</span>
+</code></pre></div></div>
+
+<h3 id="padding-box">padding-box</h3>
+<p>배경색이 선을 제외한 패딩 영역까지 배치를 합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-clip</span><span class="nd">:padding-box</span><span class="o">;</span>
+</code></pre></div></div>
+
+<h3 id="content-box">content-box</h3>
+<p>컨덴츠 영역에만 배경색이 배치 됩니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-clip</span><span class="nd">:content-box</span><span class="o">;</span>
+</code></pre></div></div>
+:ET

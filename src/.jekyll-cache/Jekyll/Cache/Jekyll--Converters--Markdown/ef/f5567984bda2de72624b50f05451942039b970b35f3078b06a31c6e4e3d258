@@ -1,0 +1,30 @@
+I"><h1 id="origin과-clip">origin과 clip</h1>
+
+<h2 id="origin">origin</h2>
+<p>배경 이미지가 채워지는 영역을 지정합니다.</p>
+
+<h3 id="padding-box">padding-box</h3>
+<p>백그라운드 이미지가 요소의 <code class="language-plaintext highlighter-rouge">패딩 영역</code>에도 포함되어 배치를 합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-origin</span><span class="nd">:padding-box</span><span class="o">;</span>
+</code></pre></div></div>
+
+<h3 id="border-box">border-box</h3>
+<p>외각선 영역까지 배경 이미지를 배치 합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-origin</span><span class="nd">:border-box</span><span class="o">;</span>
+</code></pre></div></div>
+
+<h3 id="content-box">content-box</h3>
+<p>컨덴츠 영역에만 배경이미지가 배치가 됩니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-origin</span><span class="nd">:content-box</span><span class="o">;</span>
+</code></pre></div></div>
+
+<h2 id="응용실습">응용실습:</h2>
+
+<blockquote>
+  <p>예제파일: ./sample/origin11.html</p>
+</blockquote>
+
+:ET

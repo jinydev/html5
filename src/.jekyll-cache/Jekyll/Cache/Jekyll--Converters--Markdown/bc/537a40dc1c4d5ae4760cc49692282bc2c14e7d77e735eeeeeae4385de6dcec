@@ -1,0 +1,28 @@
+I"C<h1 id="테이블-테그">테이블 테그</h1>
+<hr />
+<p><img src="./img/html505_04.png" alt="html505_04" /></p>
+
+<p><br /></p>
+
+<h2 id="학습목표">학습목표</h2>
+<hr />
+<ul>
+  <li>table 태그 구조에 대해 살펴볼 수 있다.</li>
+  <li>table 태그의 속성들을 살펴볼 수 있다.</li>
+  <li>th,tr,td 태그에 대해 살펴볼 수 있다.</li>
+  <li>테이블의 셀 병합하는 방법을 익힐 수 있다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="학습안내">학습안내</h2>
+<hr />
+<ul>
+  <li>table <a href="태그구조">태그 구조</a></li>
+  <li>table 태그와 함께 사용하는 <a href="태그">태그</a>들</li>
+  <li>table 태그와 관련된 <a href="속성">속성</a>들</li>
+  <li><a href="trtd">th, tr, td 태그와 관련된 속성들</a></li>
+  <li>셀 <a href="병합">병합</a></li>
+</ul>
+
+:ET

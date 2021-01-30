@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--SEO--><title>Html5 | html5</title>
+            <meta name="title" content="html5" /><meta name="description" content="html을 학습합니다." /><meta name="keyword" content="html5" /><!--부트스트랩4-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+            body {
+                font-family: "Nanum Gothic", sans-serif;
+            }
+            img {
+                max-width:100%;
+            }
+        </style>
+
+        <link rel="stylesheet" href="/assets/highlight.css">
+        <link rel="stylesheet" href="/assets/style.css">
+        
+
+    </head>
+    <body>
+        <!--네비게이션--><!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">HTML5</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/setup">개발환경
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+        <div class="container"><nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <!--breadcrumb loop--></ol>    
+</nav></div>
+        
+        <!-- Page Content -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-9">
+            <section>
+                <h1 id="class-속성을-이용하여-요소를-선택합니다">class 속성을 이용하여 요소를 선택합니다.</h1>
+
+<h2 id="클래스">클래스</h2>
+<p>테그에 클래스 속성을 정의 할 수 있습니다.</p>
+
+<h3 id="속성지정">속성지정</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"heading"</span><span class="nt">&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
+</code></pre></div></div>
+
+<h2 id="css-선택">CSS 선택</h2>
+<p>css를 이용하여 클래스 속성을 선택할 수 있습니다.</p>
+
+<h3 id="단일-선택">단일 선택</h3>
+<p>클래스를 선택할 때에는 <code class="language-plaintext highlighter-rouge">.</code>를 사용합니다.</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.heading</span> <span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="다중-틀래스-선택">다중 틀래스 선택</h3>
+<p>여러개의 클래스 속성값을 가지는 요소를 선택할 수 있습니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.a.b.c</span> <span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>클래스 a, 클래스 b, 클래스 c 3개가 선택되어 있는 요소를 선택합니다.</p>
+
+<h2 id="클래스-적용">클래스 적용</h2>
+
+<h3 id="다중-클래스-적용">다중 클래스 적용</h3>
+<p>하나의 테그는 여러개의 클래스를 선택할 수 있습니다.
+여러개의 클래스를 선택할 때에는 <code class="language-plaintext highlighter-rouge">스페이스</code>로 구분을 합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"heading bold"</span><span class="nt">&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
+</code></pre></div></div>
+
+
+            </section>
+
+            
+                <!--구글 애드센스1-->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-format="fluid"
+                    data-ad-layout-key="-fb+5w+4e-db+86"
+                    data-ad-client="ca-pub-3321560028329475"
+                    data-ad-slot="6043271504"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                <br>
+            
+
+        </div>
+
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+            <aside><!--사이드메뉴1-->
+<ul class="list-group">
+    <li class="list-group-item"><a href="">about</a></li>
+    <li class="list-group-item"><a href="/setup">setup</a></li>
+    <li class="list-group-item"><a href="/basic">basic</a></li>
+    <li class="list-group-item"><a href="/html">html</a></li>
+    <li class="list-group-item"><a href="/markdown">markdown</a></li>
+    <li class="list-group-item"><a href="/form">form</a></li>
+    <li class="list-group-item"><a href="/css">css</a></li>
+    <li class="list-group-item"><a href="">dom</a></li>
+    <li class="list-group-item"><a href="">http</a></li>
+    <li class="list-group-item"><a href="">layout</a></li>
+    <li class="list-group-item"><a href="">실습</a></li>
+    <li class="list-group-item"><a href="/refs">참고링크</a></li>
+</ul></aside>
+            <br>
+            
+            <!--구글 애드센스2-->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-format="fluid"
+                data-ad-layout-key="-ef+6k-30-ac+ty"
+                data-ad-client="ca-pub-3321560028329475"
+                data-ad-slot="7661682925"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+
+        <div class="container"> <!-- Footer -->
+ <hr>
+<footer>
+    <div class="container">
+		
+    	<div class="row">
+        	<div class="col-4">
+				<li><a href="https://php.jiny.dev">PHP</a></li>
+				<li><a href="https://mysql.jiny.dev">Mysql</a></li>
+			</div>
+			<div class="col-4">
+				<li><a href="https://HTML5.jiny.dev">HTML5</a></li>
+					<li><a href="https://javascript.jiny.dev">Javascript</a></li>
+			</div>
+
+			<div class="col-4">
+				<ul>			
+					<li><a href="https://git.jiny.dev">Git & Github</a></li>
+				</ul>
+			</div>
+    	</div>
+	</div>
+	<br>
+
+	<p class="m-0 text-center">Copyright &copy; jinydev 2020</p>
+	
+    <!-- /.container -->
+</footer></div>
+             
+
+        <!--부트스트랩4-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159909206-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-159909206-1');
+        </script>
+    </body>
+
+</html>

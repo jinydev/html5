@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--SEO--><title>Html5 | Box Shadow - Learn CSS</title>
+            <meta name="title" content="Box Shadow - Learn CSS" /><meta name="description" content="그림자 박스를 제작하기 위한 css에 대해서 학습합니다." /><meta name="keyword" content="box-shadow, css, css3, html5" /><!--부트스트랩4-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+            body {
+                font-family: "Nanum Gothic", sans-serif;
+            }
+            img {
+                max-width:100%;
+            }
+        </style>
+
+        <link rel="stylesheet" href="/assets/highlight.css">
+        <link rel="stylesheet" href="/assets/style.css">
+        
+
+    </head>
+    <body>
+        <!--네비게이션--><!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">HTML5</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/setup">개발환경
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+        <div class="container"><nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <!--breadcrumb loop--><li class="breadcrumb-item "><a href="../">css</a></li><li class="breadcrumb-item "><a href="../">box</a></li><li class="breadcrumb-item active">shadow</li></ol>    
+</nav></div>
+        
+        <!-- Page Content -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-9">
+            <section>
+                <blockquote>
+  <p>CSS3</p>
+  <h2 id="box-shadow">box-shadow</h2>
+</blockquote>
+
+<p>박스 영역에 그림자를 추가합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
+    <span class="nl">box-shadow</span><span class="p">:</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">#000</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>예제코드 : ./dample/shadow10.html</p>
+</blockquote>
+
+<p>첫번째 값
+x축을 기반으로 그림자 위치</p>
+
+<p>두번째값
+y축 기반 그림자 위치</p>
+
+<p>세번째값 
+그림자 번지는 크기값</p>
+
+<p>네번째값
+그림자 색상
+rgb 또는 rgba 모두 사용이 가능합니다.</p>
+
+<h2 id="안쪽-그림자">안쪽 그림자</h2>
+<p>안쪽 부분에 그림자를 넣고자 할때에는 <code class="language-plaintext highlighter-rouge">inset</code> 값을 추가합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
+    <span class="nl">box-shadow</span><span class="p">:</span> <span class="nb">inset</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">#000</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="그림자의-컨덴츠-영역">그림자의 컨덴츠 영역</h2>
+<p>그림자는 다른 컨덴츠 요소에 영향을 미치지 않습니다.</p>
+
+<p>그림자로 인하여 영역이 겹치는 문제가 있는 경우, 마진 또는 패딩값을 추가로 주어야 합니다.</p>
+
+
+            </section>
+
+            
+                <!--구글 애드센스1-->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-format="fluid"
+                    data-ad-layout-key="-fb+5w+4e-db+86"
+                    data-ad-client="ca-pub-3321560028329475"
+                    data-ad-slot="6043271504"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                <br>
+            
+
+        </div>
+
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+            <aside><!--사이드메뉴1-->
+<ul class="list-group">
+    <li class="list-group-item"><a href="">about</a></li>
+    <li class="list-group-item"><a href="/setup">setup</a></li>
+    <li class="list-group-item"><a href="/basic">basic</a></li>
+    <li class="list-group-item"><a href="/html">html</a></li>
+    <li class="list-group-item"><a href="/markdown">markdown</a></li>
+    <li class="list-group-item"><a href="/form">form</a></li>
+    <li class="list-group-item"><a href="/css">css</a></li>
+    <li class="list-group-item"><a href="">dom</a></li>
+    <li class="list-group-item"><a href="">http</a></li>
+    <li class="list-group-item"><a href="">layout</a></li>
+    <li class="list-group-item"><a href="">실습</a></li>
+    <li class="list-group-item"><a href="/refs">참고링크</a></li>
+</ul></aside>
+            <br>
+            
+            <!--구글 애드센스2-->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-format="fluid"
+                data-ad-layout-key="-ef+6k-30-ac+ty"
+                data-ad-client="ca-pub-3321560028329475"
+                data-ad-slot="7661682925"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+
+        <div class="container"> <!-- Footer -->
+ <hr>
+<footer>
+    <div class="container">
+		
+    	<div class="row">
+        	<div class="col-4">
+				<li><a href="https://php.jiny.dev">PHP</a></li>
+				<li><a href="https://mysql.jiny.dev">Mysql</a></li>
+			</div>
+			<div class="col-4">
+				<li><a href="https://HTML5.jiny.dev">HTML5</a></li>
+					<li><a href="https://javascript.jiny.dev">Javascript</a></li>
+			</div>
+
+			<div class="col-4">
+				<ul>			
+					<li><a href="https://git.jiny.dev">Git & Github</a></li>
+				</ul>
+			</div>
+    	</div>
+	</div>
+	<br>
+
+	<p class="m-0 text-center">Copyright &copy; jinydev 2020</p>
+	
+    <!-- /.container -->
+</footer></div>
+             
+
+        <!--부트스트랩4-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159909206-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-159909206-1');
+        </script>
+    </body>
+
+</html>

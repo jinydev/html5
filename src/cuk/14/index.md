@@ -2,11 +2,17 @@
 layout: home
 ---
 
-![html514_01](./img/html514_01.png)
 
-![html514_02](./img/html514_02.png)
 
-![html514_03](./img/html514_03.png)
+# HTML과 CSS, 자바스크립트 팁
+
+
+
+
+
+
+
+
 
 
 
@@ -20,11 +26,31 @@ layout: home
 
 ![html514_08](./img/html514_08.png)
 
-![html514_09](./img/html514_09.png)
 
-![html514_10](./img/html514_10.png)
 
-![html514_11](./img/html514_11.png)
+## 학습목표
+
+* 마우스 커서에 대해 살펴볼 수 있다.
+* 이미지의 롤오버 기능을 살펴볼 수 있다.
+* 홈페이지 제작 과정에 대해 살펴볼 수 있다.
+
+
+
+## 학습 안내
+
+* 마우스 커서 관련 팁
+* 스타일시트로 이미지 폴오버
+* 간단한 홈페이지 만들기
+
+
+
+
+
+## 01. 마우스 커서 관련 팁
+
+
+
+
 
 ![html514_12](./img/html514_12.png)
 
@@ -36,7 +62,11 @@ layout: home
 
 ![html514_16](./img/html514_16.png)
 
-![html514_17](./img/html514_17.png)
+## 02. 스타일시트로 이미지 롤오버
+
+
+
+
 
 ![html514_18](./img/html514_18.png)
 
@@ -54,7 +84,11 @@ layout: home
 
 ![html514_25](./img/html514_25.png)
 
-![html514_26](./img/html514_26.png)
+## 03. 간단한 홈페이지 만들기
+
+
+
+
 
 ![html514_27](./img/html514_27.png)
 
@@ -94,13 +128,13 @@ layout: home
 
 ![html514_45](./img/html514_45.png)
 
-![html514_46](./img/html514_46.png)
 
-![html514_47](./img/html514_47.png)
 
-![html514_48](./img/html514_48.png)
 
-![html514_49](./img/html514_49.png)
+
+
+
+
 
 
 

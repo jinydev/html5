@@ -1,0 +1,47 @@
+I"N<h1 id="텍스트-태그">텍스트 태그</h1>
+
+<p><img src="./img/html502_04.png" alt="html502_04" />
+<img src="./img/html502_05.png" alt="html502_05" />
+<img src="./img/html502_06.png" alt="html502_06" /></p>
+
+<p><br /></p>
+
+<h2 id="학습목표">학습목표</h2>
+<hr />
+<ul>
+  <li>텍스트를 꾸미는 방법을 설명할 수 있다.</li>
+  <li>“TEXT 이미지”와 “TEXT”의 차이점을 알 수 있다.</li>
+  <li>“굴림”과 “굴림체”의 차이점을 파악할 수 있다.</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code>태그와 <code class="language-plaintext highlighter-rouge">&lt;ol&gt;</code>태그를 설명할 수 있다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="학습안내">학습안내</h2>
+<hr />
+<ul>
+  <li>텍스트 <a href="이미지와텍스트">이미지와 텍스트</a></li>
+  <li>텍스트 <a href="색상변경">색상(color) 변경</a></li>
+  <li>텍스트 <a href="크기변경">크기(font-size) 변경</a></li>
+  <li>텍스트 <a href="글꼴변경">글꼴(font-family) 변경</a></li>
+  <li>기타 <a href="택스트스타일">택스트 스타일</a></li>
+  <li><a href="순서없는">순서 없는 목록</a></li>
+  <li><a href="순서목록">순서 목록</a></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="학습정리">학습정리</h2>
+<hr />
+<p>이번 시간에는 다음과 같은 내용을 학습하였습니다.</p>
+
+<ul>
+  <li>텍스트 이미지와 텍스트</li>
+  <li>텍스트 색상 변경</li>
+  <li>텍스트 크기 변경</li>
+  <li>기타 텍스트 스타일</li>
+  <li>순서없는 목록</li>
+  <li>순서 목록</li>
+</ul>
+
+:ET

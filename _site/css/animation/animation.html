@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--SEO--><title>Html5 | CSS - Learn html5</title>
+            <meta name="title" content="CSS - Learn html5" /><meta name="description" content="hcss3에 대해서 학습합니다." /><meta name="keyword" content="css, css3, html5" /><!--부트스트랩4-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+            body {
+                font-family: "Nanum Gothic", sans-serif;
+            }
+            img {
+                max-width:100%;
+            }
+        </style>
+
+        <link rel="stylesheet" href="/assets/highlight.css">
+        <link rel="stylesheet" href="/assets/style.css">
+        
+
+    </head>
+    <body>
+        <!--네비게이션--><!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">HTML5</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/setup">개발환경
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+        <div class="container"><nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <!--breadcrumb loop--><li class="breadcrumb-item "><a href="../">css</a></li><li class="breadcrumb-item active">animation</li></ol>    
+</nav></div>
+        
+        <!-- Page Content -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-9">
+            <section>
+                <h2 id="animation">animation</h2>
+<p>에니메이션은 트랜지션과 달리 동작조건을 부여하지 않아도,
+자체적으로 효과를 수행할 수 있도록 지정할 수 있습니다.</p>
+
+<h2 id="프레임-정하기">프레임 정하기</h2>
+<p>에니메이션에 대한 프레임 갯수를 지정합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@keyframes</span> <span class="n">이름</span> <span class="p">{</span>
+            
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="동작횟수-지정하기">동작횟수 지정하기</h2>
+<p>기본적으로 에니메이션은 페이지 로딩후 1번만 수행이 됩니다.
+만일 여러번의 동작을 수행해야 하는 경우 횟루를 지정할 수 있습니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">animation-iteration-count</span><span class="o">:</span> <span class="err">5</span><span class="o">;</span>
+</code></pre></div></div>
+
+<p>무한반복을 설정하고자 할때에는 infinite 로 값을 지정합니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">animation-iteration-count</span><span class="o">:</span> <span class="nt">infinite</span><span class="o">;</span>
+</code></pre></div></div>
+
+<h2 id="동작함수">동작함수</h2>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">animation-timing-function</span><span class="o">:</span> <span class="nt">ease</span><span class="o">;</span> 
+</code></pre></div></div>
+
+<h2 id="시작끝-동작">시작/끝 동작</h2>
+<p>동작의 시작과 끝에 대한 동작을 지정할 수 있습니다.</p>
+
+<ul>
+  <li>alternate
+0-&gt;100 , 100-&gt;0으로 동작합니다.</li>
+</ul>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">animation-direction</span><span class="o">:</span> <span class="nt">alternate</span><span class="o">;</span> 
+</code></pre></div></div>
+
+<h2 id="잛게-표현">잛게 표현</h2>
+
+<p>animation 속성을 통하여 여러 동작 효과를 한줄로 작성을 할 수 있습니다.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">animation</span><span class="o">:</span> <span class="nt">키프레임명</span> <span class="nt">실행시간</span> <span class="nt">움직임</span> <span class="nt">딜레이</span> <span class="nt">반복</span> <span class="nt">처리방법</span><span class="o">;</span>
+</code></pre></div></div>
+
+
+            </section>
+
+            
+                <!--구글 애드센스1-->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-format="fluid"
+                    data-ad-layout-key="-fb+5w+4e-db+86"
+                    data-ad-client="ca-pub-3321560028329475"
+                    data-ad-slot="6043271504"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                <br>
+            
+
+        </div>
+
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+            <aside><!--사이드메뉴1-->
+<ul class="list-group">
+    <li class="list-group-item"><a href="">about</a></li>
+    <li class="list-group-item"><a href="/setup">setup</a></li>
+    <li class="list-group-item"><a href="/basic">basic</a></li>
+    <li class="list-group-item"><a href="/html">html</a></li>
+    <li class="list-group-item"><a href="/markdown">markdown</a></li>
+    <li class="list-group-item"><a href="/form">form</a></li>
+    <li class="list-group-item"><a href="/css">css</a></li>
+    <li class="list-group-item"><a href="">dom</a></li>
+    <li class="list-group-item"><a href="">http</a></li>
+    <li class="list-group-item"><a href="">layout</a></li>
+    <li class="list-group-item"><a href="">실습</a></li>
+    <li class="list-group-item"><a href="/refs">참고링크</a></li>
+</ul></aside>
+            <br>
+            
+            <!--구글 애드센스2-->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-format="fluid"
+                data-ad-layout-key="-ef+6k-30-ac+ty"
+                data-ad-client="ca-pub-3321560028329475"
+                data-ad-slot="7661682925"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+
+        <div class="container"> <!-- Footer -->
+ <hr>
+<footer>
+    <div class="container">
+		
+    	<div class="row">
+        	<div class="col-4">
+				<li><a href="https://php.jiny.dev">PHP</a></li>
+				<li><a href="https://mysql.jiny.dev">Mysql</a></li>
+			</div>
+			<div class="col-4">
+				<li><a href="https://HTML5.jiny.dev">HTML5</a></li>
+					<li><a href="https://javascript.jiny.dev">Javascript</a></li>
+			</div>
+
+			<div class="col-4">
+				<ul>			
+					<li><a href="https://git.jiny.dev">Git & Github</a></li>
+				</ul>
+			</div>
+    	</div>
+	</div>
+	<br>
+
+	<p class="m-0 text-center">Copyright &copy; jinydev 2020</p>
+	
+    <!-- /.container -->
+</footer></div>
+             
+
+        <!--부트스트랩4-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159909206-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-159909206-1');
+        </script>
+    </body>
+
+</html>

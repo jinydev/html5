@@ -1,0 +1,33 @@
+I"<h1 id="아이프레임-테그">아이프레임 테그</h1>
+<hr />
+<p><img src="./img/html507_04.png" alt="html507_04" /></p>
+
+<p><img src="./img/html507_05.png" alt="html507_05" /></p>
+
+<p><img src="./img/html507_06.png" alt="html507_06" /></p>
+
+<p><img src="./img/html507_07.png" alt="html507_07" /></p>
+
+<p><br /></p>
+
+<h2 id="학습목표">학습목표</h2>
+<hr />
+<ul>
+  <li>iframe에 대해 살펴볼 수 있다.</li>
+  <li>iframe의 속성들을 살펴볼 수 있다.</li>
+  <li>iframe에 페이지 삽입을 실습해 볼 수 있다.</li>
+  <li>iframe에 응용작업을 실습해 볼 수 있다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="학습안내">학습안내</h2>
+<hr />
+<ul>
+  <li><a href="문서삽입">웹문서에 또 다른 문서 삽입</a></li>
+  <li><a href="iframe">iframe에서 사용하는 속성들</a></li>
+  <li><a href="youtube">아이프렘으로 유튜브 동영상 삽입하기</a></li>
+  <li><a href="속성">아이프레임에서 srcdoc 속성과 name 속성을 이용한 문서 연결</a></li>
+</ul>
+
+:ET

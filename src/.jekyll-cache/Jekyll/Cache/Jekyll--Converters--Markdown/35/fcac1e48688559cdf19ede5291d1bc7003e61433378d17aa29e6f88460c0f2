@@ -1,0 +1,32 @@
+I"�<h1 id="멀티미디어-삽입-태그">멀티미디어 삽입 태그</h1>
+<hr />
+<p><img src="./img/html506_04.png" alt="html506_04" /></p>
+
+<p><img src="./img/html506_05.png" alt="html506_05" /></p>
+
+<p><img src="./img/html506_06.png" alt="html506_06" /></p>
+
+<p><br /></p>
+
+<h2 id="학습목표">학습목표</h2>
+<hr />
+<ul>
+  <li>멀티미디어 삽입 태그에 대해 살펴볼 수 있다.</li>
+  <li>압축코덱에 대해 살펴볼 수 있다.</li>
+  <li>사운드와 동영상 포맷에 대해 살펴볼 수 있다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="학습안내">학습안내</h2>
+<hr />
+<ul>
+  <li>웹문서에서의 <a href="사운드포맷">사운드 포맷</a></li>
+  <li>audio 태그와 <a href="속성값">속성값</a></li>
+  <li><a href="코덱">코덱과 컨데이너 포맷</a></li>
+  <li><a href="동영상">웹문서에서의 동영상 포맷</a></li>
+  <li><a href="video">video 태그와 속성값</a></li>
+  <li><a href="인코딩">인코딩 프로그램</a></li>
+</ul>
+
+:ET

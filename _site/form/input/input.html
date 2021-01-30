@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--SEO--><title>Html5 | html5</title>
+            <meta name="title" content="html5" /><meta name="description" content="html을 학습합니다." /><meta name="keyword" content="html5" /><!--부트스트랩4-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+            body {
+                font-family: "Nanum Gothic", sans-serif;
+            }
+            img {
+                max-width:100%;
+            }
+        </style>
+
+        <link rel="stylesheet" href="/assets/highlight.css">
+        <link rel="stylesheet" href="/assets/style.css">
+        
+
+    </head>
+    <body>
+        <!--네비게이션--><!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">HTML5</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/setup">개발환경
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+        <div class="container"><nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <!--breadcrumb loop--></ol>    
+</nav></div>
+        
+        <!-- Page Content -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-9">
+            <section>
+                <h1 id="입력을-받는-양식입니다">입력을 받는 양식입니다.</h1>
+
+<h2 id="type-형식-속성">type 형식 속성</h2>
+<p>input은 다양한 속성값을 부여하여 처리를 할 수 있습니다.</p>
+
+<h3 id="text">text</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="submit">submit</h3>
+<p>입력롬을 서버로 전송을 위한 버튼을 출력합니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="checkbox">checkbox</h3>
+
+<p>라벨과 연동하여 체크를 처리할 수 있습니다.</p>
+
+<h3 id="file">file</h3>
+
+<h3 id="hidden">hidden</h3>
+
+<h3 id="image">image</h3>
+
+<h3 id="password">password</h3>
+<p>값을 입력할때 * 로 대체되어 표시가 됩니다.</p>
+
+<h3 id="radio">radio</h3>
+<p>여러개의 중에서 하나만 선택할 수 있습니다.
+주의할 점은 <code class="language-plaintext highlighter-rouge">name</code> 속성을 동일하게 부여를 하여야 합니다.</p>
+<h3 id="reset">reset</h3>
+
+<h3 id="butten">butten</h3>
+
+<h2 id="type-값-속성">type 값 속성</h2>
+
+<h3 id="color">color</h3>
+
+<h3 id="date">date</h3>
+
+<h3 id="datetime">datetime</h3>
+
+<h3 id="datetime-local">datetime-local</h3>
+
+<h3 id="email">email</h3>
+
+<h3 id="month">month</h3>
+
+<h3 id="number">number</h3>
+
+<h3 id="range">range</h3>
+
+<h3 id="search">search</h3>
+
+<h3 id="tel">tel</h3>
+
+<h3 id="time">time</h3>
+
+<h3 id="url">url</h3>
+
+<h3 id="week">week</h3>
+
+<h2 id="값설정">값설정</h2>
+
+<p>기본 입력값을 설정합니다.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">value=</span><span class="s">"안녕하세요"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"전송"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="요소들">요소들</h3>
+<p>다양한 폼 요소가 존재합니다.</p>
+
+<h4 id="input">input</h4>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;imput</span> <span class="na">type=</span><span class="s">"????"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>타입에 종류별로 다르게 동작을 합니다.</p>
+
+            </section>
+
+            
+                <!--구글 애드센스1-->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-format="fluid"
+                    data-ad-layout-key="-fb+5w+4e-db+86"
+                    data-ad-client="ca-pub-3321560028329475"
+                    data-ad-slot="6043271504"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                <br>
+            
+
+        </div>
+
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+            <aside><!--사이드메뉴1-->
+<ul class="list-group">
+    <li class="list-group-item"><a href="">about</a></li>
+    <li class="list-group-item"><a href="/setup">setup</a></li>
+    <li class="list-group-item"><a href="/basic">basic</a></li>
+    <li class="list-group-item"><a href="/html">html</a></li>
+    <li class="list-group-item"><a href="/markdown">markdown</a></li>
+    <li class="list-group-item"><a href="/form">form</a></li>
+    <li class="list-group-item"><a href="/css">css</a></li>
+    <li class="list-group-item"><a href="">dom</a></li>
+    <li class="list-group-item"><a href="">http</a></li>
+    <li class="list-group-item"><a href="">layout</a></li>
+    <li class="list-group-item"><a href="">실습</a></li>
+    <li class="list-group-item"><a href="/refs">참고링크</a></li>
+</ul></aside>
+            <br>
+            
+            <!--구글 애드센스2-->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-format="fluid"
+                data-ad-layout-key="-ef+6k-30-ac+ty"
+                data-ad-client="ca-pub-3321560028329475"
+                data-ad-slot="7661682925"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+
+        <div class="container"> <!-- Footer -->
+ <hr>
+<footer>
+    <div class="container">
+		
+    	<div class="row">
+        	<div class="col-4">
+				<li><a href="https://php.jiny.dev">PHP</a></li>
+				<li><a href="https://mysql.jiny.dev">Mysql</a></li>
+			</div>
+			<div class="col-4">
+				<li><a href="https://HTML5.jiny.dev">HTML5</a></li>
+					<li><a href="https://javascript.jiny.dev">Javascript</a></li>
+			</div>
+
+			<div class="col-4">
+				<ul>			
+					<li><a href="https://git.jiny.dev">Git & Github</a></li>
+				</ul>
+			</div>
+    	</div>
+	</div>
+	<br>
+
+	<p class="m-0 text-center">Copyright &copy; jinydev 2020</p>
+	
+    <!-- /.container -->
+</footer></div>
+             
+
+        <!--부트스트랩4-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159909206-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-159909206-1');
+        </script>
+    </body>
+
+</html>

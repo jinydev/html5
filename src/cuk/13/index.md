@@ -2,11 +2,17 @@
 layout: home
 ---
 
-![html513_01](./img/html513_01.png)
 
-![html513_02](./img/html513_02.png)
 
-![html513_03](./img/html513_03.png)
+# 자바스크립트
+
+
+
+
+
+
+
+
 
 
 
@@ -20,11 +26,32 @@ layout: home
 
 ![html513_08](./img/html513_08.png)
 
-![html513_09](./img/html513_09.png)
 
-![html513_10](./img/html513_10.png)
 
-![html513_11](./img/html513_11.png)
+## 학습목표
+
+* 자바스크립트에 대해 살펴볼 수 있다.
+* 자바스크립트의 특징을 살펴볼 수 있다.
+* 자바스크립트 선언 방법을 살펴볼 수 있다.
+
+
+
+## 학습안내
+
+* 자바스크립트 기초
+* 자바스크립트 선언 방법
+* 객체 방식 프로그래밍
+* 스크립트 실행하기
+
+
+
+## 01. 자바스크립트 기초
+
+
+
+
+
+
 
 ![html513_12](./img/html513_12.png)
 
@@ -44,7 +71,15 @@ layout: home
 
 ![html513_20](./img/html513_20.png)
 
-![html513_21](./img/html513_21.png)
+
+
+## 02. 자바스크립트 선언 방법
+
+
+
+
+
+
 
 ![html513_22](./img/html513_22.png)
 
@@ -80,7 +115,11 @@ layout: home
 
 ![html513_38](./img/html513_38.png)
 
-![html513_39](./img/html513_39.png)
+## 03. 객체 방식 프로그래밍
+
+
+
+
 
 ![html513_40](./img/html513_40.png)
 
@@ -110,7 +149,13 @@ layout: home
 
 ![html513_53](./img/html513_53.png)
 
-![html513_54](./img/html513_54.png)
+
+
+## 04. 스크립트 실행하기
+
+
+
+
 
 ![html513_55](./img/html513_55.png)
 
@@ -130,11 +175,11 @@ layout: home
 
 ![html513_63](./img/html513_63.png)
 
-![html513_64](./img/html513_64.png)
 
-![html513_65](./img/html513_65.png)
 
-![html513_66](./img/html513_66.png)
 
-![html513_67](./img/html513_67.png)
+
+
+
+
 
