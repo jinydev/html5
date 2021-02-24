@@ -1,0 +1,44 @@
+I"F<h1 id="객체-방식-프로그래밍">객체 방식 프로그래밍</h1>
+
+<h2 id="객체란">객체란?</h2>
+
+<p>자바스크립트는 흔히 객체 방식 프로그래밍 언어라고 한다.</p>
+
+<p>객체를 중심으로 프로그래밍 한다는 뜻이다.</p>
+
+<p>객체(object)라는 생소한 용어 때문에 그 내용도 어려울 것이라고 생각하는 데 객체는 생각하는 것보다 어렵지 않다.</p>
+
+<p>객체(object)란 사실 컴퓨터에서 인식할 수 있는 모든 대상을 가리키는 말이다.</p>
+
+<p>실세계에서 만날 수 있는 대상을 컴퓨터에서 인식할 수 있는 형태로 바꾼다면 이것 역시 객체가 된다.</p>
+
+<p>하지만 자바스크립트에서의 객체는 웹을 대상으로 하기 때문에 좀 더 좁은 의미를 가지고 있다.</p>
+
+<hr />
+
+<p><img src="./img/html513_41.png" alt="html513_41" /></p>
+
+<p><img src="./img/html513_42.png" alt="html513_42" /></p>
+
+<p><img src="./img/html513_43.png" alt="html513_43" /></p>
+
+<p><img src="./img/html513_44.png" alt="html513_44" /></p>
+
+<p><img src="./img/html513_45.png" alt="html513_45" /></p>
+
+<p><img src="./img/html513_46.png" alt="html513_46" /></p>
+
+<p><img src="./img/html513_47.png" alt="html513_47" /></p>
+
+<p><img src="./img/html513_48.png" alt="html513_48" /></p>
+
+<p><img src="./img/html513_49.png" alt="html513_49" /></p>
+
+<p><img src="./img/html513_50.png" alt="html513_50" /></p>
+
+<p><img src="./img/html513_51.png" alt="html513_51" /></p>
+
+<p><img src="./img/html513_52.png" alt="html513_52" /></p>
+
+<p><img src="./img/html513_53.png" alt="html513_53" /></p>
+:ET

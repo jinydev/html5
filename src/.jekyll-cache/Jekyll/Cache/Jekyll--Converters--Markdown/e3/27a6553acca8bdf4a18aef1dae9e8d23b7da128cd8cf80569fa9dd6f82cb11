@@ -1,0 +1,112 @@
+I"�<h1 id="태그-스타일과-클래스-스타일">태그 스타일과 클래스 스타일</h1>
+
+<h2 id="태그스타일">태그스타일</h2>
+
+<p>셀렉터는 특정한 태그일 수도 있고 사용자가 직접 만든 이름일 수도 있다.</p>
+
+<h4 id="태그-스타일tag-style">태그 스타일(tag style)</h4>
+
+<p>셀렉터가 시존의 태그일 경우 그 태그를 사용하는 모든 요소에 같은 스타일이 적용</p>
+
+<h4 id="클래스-스타일class-style">클래스 스타일(class style)</h4>
+
+<p>상용자가 만든 이름이 셀렉터가 된다면 그 스타일은 문서 안의 특정한 부분에만 적용</p>
+
+<hr />
+
+<p>태그 스타일</p>
+
+<p><code class="language-plaintext highlighter-rouge">같은 태그</code>를 사용하는 텍스트마다 <code class="language-plaintext highlighter-rouge">같은 스타일</code>을 사용하도록 하는 것</p>
+
+<ul>
+  <li>스타일 시스트에서 <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code>태그 스타일을 정의한다면 그 문서에 있는 <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code>태그 요소에는 모두 똑같은 스타일이 사용된다. 태그 스타일의 기본 형식은 다음과 같다.</li>
+</ul>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">태그</span> <span class="p">{</span>
+	<span class="py">속성</span><span class="p">:</span><span class="n">속성값</span><span class="p">;</span>
+	<span class="py">속성</span><span class="p">:</span><span class="n">속성값</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>예글 들어, 아래 스타일 시트는 세가지 스타일을 정의하고 있다. 모든 <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code>태그 적용 요소의 색상을 파란색으로 하여 영문자를 모두 대문자로 변경한다. 그리고 <code class="language-plaintext highlighter-rouge">&lt;h3&gt;</code>태그 적용 요소의 색상을 녹색으로 하며, 서체 크기는 20 픽셀 크기로 표시한다. &lt;p&gt;태그 적용 요소는 12픽셀 크기로 표시하며, 왼쪽 여백을 20 픽셀로 정의하고 있다.</li>
+</ul>
+
+<p><img src="./img/html510_22.png" alt="html510_22" /></p>
+
+<p><img src="./img/html510_23.png" alt="html510_23" /></p>
+
+<p><img src="./img/html510_24.png" alt="html510_24" /></p>
+
+<p><img src="./img/html510_25.png" alt="html510_25" /></p>
+
+<h2 id="클래스-스타일">클래스 스타일</h2>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;p&gt;</code>태그 스타일은 웹 문서에서 p태그를 사용하는 모든 부분, 즉 문서의 모든 텍스트 단락에 적용되는 스타일 이다.</p>
+
+<p>하지만 같은 <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code>태그를 사용하는 단락이라도 문서의 일부 단락에만 붉은 색으로 지정 하려고 하고 싶다면 문제가 생긴다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">이러한 문제 때문에 사용하는 스타일</code>이 클래식 스타일이다.</p>
+
+<ul>
+  <li>클래스 스타일의 기본 형식은 다음과 같다.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.스타일이름 {
+	속성:속성값;
+	속성:속성값;
+}
+</code></pre></div></div>
+
+<p>앞서 살펴본 태그 스타일에서 ‘태그’부분이 ‘.스타일’으로 바뀐 점만 빼면 스타일을 정의하는 방법은 같다.</p>
+
+<p>스타일 이름 앞에 마침표(.)가 있다는 점에 주의한다.</p>
+
+<p>이렇게 정의된 클래스 스타일을 적용할 때는 CLASS 속성을 이용해서 클래스 이름을 알려주게 된다.</p>
+
+<p>그리고 클래스 스타일은 꼭 한 태그에서만 사용하는 것은 아니다.</p>
+
+<p>예를들어</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.redtext {
+	color:red;
+	font-size:12px;
+}
+</code></pre></div></div>
+
+<p>처럼 redtext라는 클래스 스타일을 정의 했다면 이 스타일은 <code class="language-plaintext highlighter-rouge">&lt;p class='redtext'&gt;</code>처럼 사용할 수 있고 <code class="language-plaintext highlighter-rouge">&lt;h1 class='redtext'&gt;</code>처럼 다른 태그에서도 사용할 수 있다.</p>
+
+<p><img src="./img/html510_29.png" alt="html510_29" /></p>
+
+<p>하지만 이 경우에도 한 단락 전체에 redtext 스타일이 적용된다.</p>
+
+<p>만일 텍스트 중 일부에만 클래스 스타일을 적용해야 할 경우에는 <code class="language-plaintext highlighter-rouge">&lt;span&gt;</code>태그를 사용한다.</p>
+
+<p><img src="./img/html510_30.png" alt="html510_30" /></p>
+
+<p><img src="./img/html510_31.png" alt="html510_31" /></p>
+
+<h2 id="named-클래스-스타일">named 클래스 스타일</h2>
+
+<p>같은 클래스 스타일을 사용하더라도 조금씩 다르게 변형하고 싶을 때 사용</p>
+
+<p>예를 들어 blue 라는 클래스 스타일을 사용하는데 특정 부분에서 글자 크기를 조금 더 크게 하고 싶다면 named 클래스 스타일을 사용한다.</p>
+
+<p>named 클래스 스타일을 만들려면 <code class="language-plaintext highlighter-rouge">#</code>를 맨 앞에 적고 그 다음에 스타일 이름을 넣는다. 그리고 이렇게 정의된 named 클래스는 id 속성을 사용해서 적용한다.</p>
+
+<p><img src="./img/html510_34.png" alt="html510_34" /></p>
+
+<p><img src="./img/html510_35.png" alt="html510_35" /></p>
+
+<p><img src="./img/html510_36.png" alt="html510_36" /></p>
+
+<h2 id="캐스캐이딩">캐스캐이딩</h2>
+
+<p>스타일 시트를 줄여서 말할 때 CSS(cascading style sheet)라고 한다. 즉, 스타일들이 단계별로 적용 된다는 의미이다.</p>
+
+<p><img src="./img/html510_38.png" alt="html510_38" /></p>
+
+<p><img src="./img/html510_39.png" alt="html510_39" /></p>
+
+<p><img src="./img/html510_40.png" alt="html510_40" /></p>
+:ET

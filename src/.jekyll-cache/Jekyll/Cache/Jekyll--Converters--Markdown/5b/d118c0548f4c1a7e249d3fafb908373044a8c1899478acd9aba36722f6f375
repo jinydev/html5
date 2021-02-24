@@ -1,0 +1,35 @@
+I",	<h1 id="셀-병합">셀 병합</h1>
+
+<p>표는 tr 태그와 td태그 등을 이용해서 여러 개의 셀로 구성할 수 있다.</p>
+
+<p>그리고 셀들은 합칠 수도 있기 때문에 이렇게 만들어진 셀 안에 또 다른 표를 삽입하면서 여러 가지 형태의 표를 한들 수도 있다.</p>
+
+<p>여러 칸을 합쳐서 하나의 칸으로 만들 수도 있고, 여러 줄을 합쳐서 하나의 줄로 만들 수도 있다.</p>
+
+<p>칸을 만들 때 사용하는 태그는 th태가나 td태그인데 여러 같을 합치기 위해서는 th태그나 td 태그안에서 colspan 속성을 사용한다.</p>
+
+<p>기본 형식은 다음과 같다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;th</span> <span class="na">colspan=</span><span class="s">"합칠칸수"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/th&gt;</span>
+<span class="nt">&lt;td</span> <span class="na">colspan=</span><span class="s">"합칠칸수"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
+</code></pre></div></div>
+
+<p>셀들은 바로 옆에 인접한 셀들끼리만 합칠 수 있다.</p>
+
+<p>그리고 셀을 합칠 경우에는 머저 종이에 펜으로 직접 표를 그려보고 어느 부분을 어떻게 할칠 것인지 미리 확인해야 한다.</p>
+
+<p>3*3 표(간 4개, 줄 3개인 표)에서 첫 번째 줄에 있는 세 개의 셀을 합쳐서 하나의 칸으로 만들 것이고, 합치려는 칸에 제목이 들어갈 거라면 다름과 같은 태그를 사용한다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;th colspan="3"&gt;...&lt;/th&gt;
+</code></pre></div></div>
+
+<p>그리고 명심할 것은 첫 번째 줄에서 colspan 속성을 사용해서 세 칸을 합쳤기 때문에 나머지 줄들 (&lt;tr&gt;…&lt;/tr&gt;)에서는 셀을 만드는 td 태그나  th 태그가 최소한 세 개가 와야 한다는 것이다.</p>
+
+<p>즉, 어떤 줄에서 칸을 합했으면 다른 줄에는 최소한 합한 칸의 수만큼의 칸이 있어야 한다.</p>
+
+<p><img src="./img/html505_56.png" alt="html505_56" /></p>
+
+<p><img src="./img/html505_57.png" alt="html505_57" /></p>
+
+<p><img src="./img/html505_58.png" alt="html505_58" /></p>
+:ET

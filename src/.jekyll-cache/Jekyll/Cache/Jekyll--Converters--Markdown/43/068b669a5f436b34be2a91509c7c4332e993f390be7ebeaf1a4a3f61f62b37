@@ -1,0 +1,27 @@
+I"�<h1 id="양식-태그">양식 태그</h1>
+<hr />
+<p><img src="./img/html509_04.png" alt="html509_04" />
+<img src="./img/html509_05.png" alt="html509_05" /></p>
+
+<p><br /></p>
+
+<h2 id="학습목표">학습목표</h2>
+<hr />
+<ul>
+  <li>양식을 꾸미는 방법에 대해 살펴볼 수 있다.</li>
+  <li>입력 양식의 종류를 살펴볼 수 있다.</li>
+  <li>입력 양식의 특징에 대해 살펴볼 수 있다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="학습안내">학습안내</h2>
+<hr />
+<ul>
+  <li><a href="양식테그">입력 양식테그와 종류</a></li>
+  <li><a href="form">form 태그</a></li>
+  <li><a href="폼요소">다양한 폼 요소 삽입하기</a></li>
+  <li><a href="select">선택 목록 만들기</a></li>
+</ul>
+
+:ET

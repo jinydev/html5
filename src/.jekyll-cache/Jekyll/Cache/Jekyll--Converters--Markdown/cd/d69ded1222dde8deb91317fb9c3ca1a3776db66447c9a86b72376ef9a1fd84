@@ -1,0 +1,22 @@
+I"�<h1 id="텍스트-링크">텍스트 링크</h1>
+
+<h2 id="링크-색상">링크 색상</h2>
+
+<p>특정 텍스트를 틀릭했을 때 다른 문서나 다른 사이트로 연결되게 하는 것을 텍스트 링크하고 한다.</p>
+
+<p>일반적으로 텍스트 링크는 웹 브라우저에서 파란색으로 표시되며 밑줄이 나타난다.</p>
+
+<p>그리고 한번 방문했는 링크는 파랑색이 아닌 보라색으로 표시된다.(단, 이 색상은 브라우저 설정에 따라 다를 수 있다.)</p>
+
+<blockquote>
+  <p>참고 : 스트일 시트를 이용하면 텍스트 링크의 밑줄을 없앨수 있다.</p>
+</blockquote>
+
+<p>링크를 만들기 위해서는 <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> 태그를 사용하는데, a 태그를 사용할 때는 반드시 href 속성을 함께 사용해서 어떤 곳으로 연결하는 것인지 알려줘야 한다.</p>
+
+<p>그리고 a태그는 반드시 닫는 태그를 사용해야 한다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="연결사이트주소"&gt;택스트&lt;/a&gt;
+</code></pre></div></div>
+
+:ET

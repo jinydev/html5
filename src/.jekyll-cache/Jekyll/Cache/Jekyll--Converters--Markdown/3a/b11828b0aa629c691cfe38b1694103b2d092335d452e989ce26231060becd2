@@ -1,0 +1,17 @@
+I"R<h1 id="이미지-링크">이미지 링크</h1>
+
+<p>링크는 텍스트뿐만 아니라 이미지에도 만들 수 있다.</p>
+
+<p>이미지를 삽입하는 <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code>태그 앞에 <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code>태그를 추가하면 된다. 이미지에 링크를 만들게 되면 텍스트 링크에 밑줄이 생기는 것처럼 이미지 주변에도 파란색 테두리 선이 생기게 된다.</p>
+
+<p>이런 테두리선은 보기 좋지 않으므로 테두리선을 없애고 싶다면 img 태그의 border 속성을 0으로 지정한다.</p>
+
+<p>이렇게 테두리선이 없더라도 이미지 위로 마우스 커서를 가져갔을 때 마우스 커서가 손 모양으로 바뀌는 것을 보고 사용자들은 이미지 링크임을 알 수 있다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">'연결할 파일 경로'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"이미지 파일 주소"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<p><img src="./img/html504_22.png" alt="html504_22" /></p>
+:ET

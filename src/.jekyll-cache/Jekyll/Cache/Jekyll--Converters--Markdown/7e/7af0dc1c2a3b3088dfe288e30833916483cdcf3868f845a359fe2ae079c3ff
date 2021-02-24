@@ -1,0 +1,35 @@
+I"�<h1 id="자바스크립트">자바스크립트</h1>
+<hr />
+<p><img src="./img/html513_04.png" alt="html513_04" /></p>
+
+<p><img src="./img/html513_05.png" alt="html513_05" /></p>
+
+<p><img src="./img/html513_06.png" alt="html513_06" /></p>
+
+<p><img src="./img/html513_07.png" alt="html513_07" /></p>
+
+<p><img src="./img/html513_08.png" alt="html513_08" /></p>
+
+<p><br /></p>
+
+<h2 id="학습목표">학습목표</h2>
+<hr />
+<ul>
+  <li>자바스크립트에 대해 살펴볼 수 있다.</li>
+  <li>자바스크립트의 특징을 살펴볼 수 있다.</li>
+  <li>자바스크립트 선언 방법을 살펴볼 수 있다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="학습안내">학습안내</h2>
+<hr />
+<ul>
+  <li><a href="basic">자바스크립트 기초</a></li>
+  <li><a href="선언방법">자바스크립트 선언 방법</a></li>
+  <li><a href="객체방식">객체 방식 프로그래밍</a></li>
+  <li><a href="실행하기">스크립트 실행하기</a></li>
+</ul>
+
+<p><br /></p>
+:ET

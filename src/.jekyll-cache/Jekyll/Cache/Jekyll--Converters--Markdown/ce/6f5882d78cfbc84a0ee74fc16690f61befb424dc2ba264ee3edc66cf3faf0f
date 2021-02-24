@@ -1,0 +1,124 @@
+I"<h1 id="스타일-시스를-이용한-텍스트-꾸미기">스타일 시스를 이용한 텍스트 꾸미기</h1>
+
+<ul>
+  <li>text-indent</li>
+  <li>text-align</li>
+  <li>text-decoration</li>
+  <li>letter-spacing</li>
+  <li>word-spacing</li>
+  <li>line-height</li>
+  <li>text-transform</li>
+</ul>
+
+<hr />
+<h2 id="text-indent">text-indent</h2>
+
+<p>이 속성은 단락의 첫 번째 줄을 얼마나 들여 쓸 것인지를 지정한다.</p>
+
+<p>px,pt,cm,em</p>
+
+<p><img src="./img/html511_39.png" alt="html511_39" /></p>
+
+<h2 id="text-align">text-align</h2>
+
+<p>이 속성은 요소 안에서 텍스트의 정렬 방법을 지정합니다.</p>
+
+<ul>
+  <li>left</li>
+  <li>right</li>
+  <li>center</li>
+  <li>justify</li>
+</ul>
+
+<p><img src="./img/html511_40.png" alt="html511_40" /></p>
+
+<p><img src="./img/html511_41.png" alt="html511_41" /></p>
+
+<p><img src="./img/html511_42.png" alt="html511_42" /></p>
+
+<h2 id="text-decoration">text-decoration</h2>
+
+<p>이 속성은 텍스트에 추가하는 장식 효과를 지정하는 것이다.</p>
+
+<p>장식이라고 해서 화려하게 꾸미는 것이 아니라 밑줄을 긋거나 글자 위에 윗줄을 긋는 등의 효과를 말하는 것이다.</p>
+
+<ul>
+  <li>none</li>
+  <li>overline</li>
+  <li>line-througn</li>
+  <li>underline</li>
+</ul>
+
+<h2 id="text-decoration-1">text-decoration</h2>
+
+<ul>
+  <li>none : 장식이 없다.</li>
+  <li>overline : 텍스트 위쪽에 줄을 긋습니다.</li>
+  <li>line-through : 텍스트 위로 가로지르는 줄을 긋는다.</li>
+  <li>underline : 밑줄을 긋습니다.</li>
+</ul>
+
+<p><img src="./img/html511_45.png" alt="html511_45" /></p>
+
+<h2 id="letter-spacing">letter-spacing</h2>
+
+<p>이 속성은 글자들 사이의 여백을 지정 합니다.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>normal</td>
+      <td>길이값</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>길이값을 사용하게 되면 기본값(normal)에 길이값을 더해서 간격을 결정한다.</p>
+
+<p><img src="./img/html511_46.png" alt="html511_46" /></p>
+
+<h2 id="word-spacing">word-spacing</h2>
+
+<p>이 속성은 단어와 단어 사이의 간격을 조절한다.</p>
+
+<p><img src="./img/html511_47.png" alt="html511_47" /></p>
+
+<h2 id="line-height">line-height</h2>
+
+<p>이 속성은 줄과 줄 사이의 간격, 즉, 줄간격을 지정합니다.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>normal</td>
+      <td>숫자</td>
+      <td>길이값</td>
+      <td>백분율</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>숫자값이 지정되면 현재 요소의 글꼴 크기에 숫자를 곱하여 줄 간견을 구한다.</p>
+
+<p>줄 간격에서는 음수값을 사용할 수 없다.</p>
+
+<p><img src="./img/html511_48.png" alt="html511_48" /></p>
+
+<h2 id="text-transform">text-transform</h2>
+
+<p>이 속성은 텍스트를 대문자로 표시할지, 소문자로 표시할지 결정하는 것이다.</p>
+
+<p>한글일 경우에는 의미가 없지만 영문에서는 적절하게 조절해서 사용할 수 있다.</p>
+
+<p><img src="./img/html511_49.png" alt="html511_49" /></p>
+
+<p><img src="./img/html511_50.png" alt="html511_50" /></p>
+
+<p><img src="./img/html511_51.png" alt="html511_51" /></p>
+
+<p><img src="./img/html511_52.png" alt="html511_52" /></p>
+
+<p><img src="./img/html511_53.png" alt="html511_53" /></p>
+
+<p><img src="./img/html511_54.png" alt="html511_54" /></p>
+:ET

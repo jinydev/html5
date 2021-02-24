@@ -1,54 +1,18 @@
 ---
 layout: default
 ---
-<!-- Page Content -->
-<div class="container">
-    <div class="row">
 
-        <!-- Post Content Column -->
-        <div class="col-lg-9">
-            <section>
-                {{ content }}
-            </section>
+<aside class="bd-sidebar">
+    <!--왼쪽 메뉴-->
+    {%- include html5.html -%}
+</aside>
 
-            
-                <!--구글 애드센스1-->
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-format="fluid"
-                    data-ad-layout-key="-fb+5w+4e-db+86"
-                    data-ad-client="ca-pub-3321560028329475"
-                    data-ad-slot="6043271504"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-                <br>
-            
-
-        </div>
-
-        <!-- Sidebar Column -->
-        <div class="col-md-3">
-            <aside>
-                {%- include menu.html -%}
-            </aside>
-            <br>
-            
-            <!--구글 애드센스2-->
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <ins class="adsbygoogle"
-                style="display:block"
-                data-ad-format="fluid"
-                data-ad-layout-key="-ef+6k-30-ac+ty"
-                data-ad-client="ca-pub-3321560028329475"
-                data-ad-slot="7661682925"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-
+<main class="bd-main order-1">
+    <div>
+      {{ content }}
     </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
+    <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+      <!--오른쪽 메뉴-->
+      {%- include aside.html -%}
+    </div>
+</main>

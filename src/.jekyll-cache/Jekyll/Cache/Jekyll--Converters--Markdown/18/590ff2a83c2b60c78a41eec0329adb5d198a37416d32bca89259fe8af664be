@@ -1,0 +1,33 @@
+I"�<h1 id="html과-css-자바스크립트-팁">HTML과 CSS, 자바스크립트 팁</h1>
+<hr />
+<p><img src="./img/html514_04.png" alt="html514_04" /></p>
+
+<p><img src="./img/html514_05.png" alt="html514_05" /></p>
+
+<p><img src="./img/html514_06.png" alt="html514_06" /></p>
+
+<p><img src="./img/html514_07.png" alt="html514_07" /></p>
+
+<p><img src="./img/html514_08.png" alt="html514_08" /></p>
+
+<p><br /></p>
+
+<h2 id="학습목표">학습목표</h2>
+<hr />
+<ul>
+  <li>마우스 커서에 대해 살펴볼 수 있다.</li>
+  <li>이미지의 롤오버 기능을 살펴볼 수 있다.</li>
+  <li>홈페이지 제작 과정에 대해 살펴볼 수 있다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="학습-안내">학습 안내</h2>
+<hr />
+<ul>
+  <li><a href="mouse">마우스 커서 관련 팁</a></li>
+  <li><a href="rollover">스타일시트로 이미지 폴오버</a></li>
+  <li><a href="homepage">간단한 홈페이지 만들기</a></li>
+</ul>
+
+:ET
