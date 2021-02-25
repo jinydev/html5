@@ -1,0 +1,72 @@
+I"�<h1 id="html-문서의-기본-구조">HTML 문서의 기본 구조</h1>
+<hr />
+
+<p><br /></p>
+
+<h2 id="html-문서-기본-뼈대">HTML 문서 기본 뼈대</h2>
+<hr />
+<p>HTML 문서를 이루는 가장 기본적인 뼈대는 다음과 같다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>웹브라우저 창 제목<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		실제적인 웹문서 내용
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h2 id="html태그"><code class="language-plaintext highlighter-rouge">&lt;html&gt;</code>태그</h2>
+<hr />
+<p>현재 작성하는 문서가 HTML 웹 문서입을 알려주기 위한 태그 이다.<br />
+웹 문서의 시작부분에는 <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code>태그를, 그리고 문서의 마지막에는 <code class="language-plaintext highlighter-rouge">&lt;/html&gt;</code>태그를 사용한다.<br />
+즉, 이 태그는 문서의 시작과 끝을 나타내는 태그이다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;html&gt;</code>태그 안을 보면 문서의 정보를 지정하는 <code class="language-plaintext highlighter-rouge">&lt;head&gt;~&lt;/head&gt;</code>부분과 실제 문서 내용이 들거가는 <code class="language-plaintext highlighter-rouge">&lt;body&gt;~&lt;/body&gt;</code>부분으로 나뉘어져 있다.</p>
+
+<p><br /></p>
+
+<h2 id="head태그"><code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>태그</h2>
+<hr />
+<p><code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>태그에서 시작해서 <code class="language-plaintext highlighter-rouge">&lt;/head&gt;</code>태그까지는 <strong>웹문서 제작자</strong>나 <strong>사용된언어</strong>, <strong>문서의 제목</strong>등 웹 문서의 여러 정보들이 들어간다.</p>
+
+<p>위의 예에서는 <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>	와 <code class="language-plaintext highlighter-rouge">&lt;/head&gt;</code>사이에 <code class="language-plaintext highlighter-rouge">&lt;title&gt;</code>태그만 사용되었지만 이외에도 여러가지 태그들이 있다.</p>
+
+<p><br /></p>
+
+<h2 id="title태그"><code class="language-plaintext highlighter-rouge">&lt;title&gt;</code>태그</h2>
+<hr />
+<p>웹 문서의 제목을 지정하는 태그로 <code class="language-plaintext highlighter-rouge">&lt;title&gt;</code>태그와 <code class="language-plaintext highlighter-rouge">&lt;/title&gt;</code>태그 사이의 태용이 웹 브라우저의 맨 윗부분에 제목으로 표시된다.</p>
+
+<p>이부분을 지정하지 않을 경우 웹 브라우저 창 맨 위에는 <code class="language-plaintext highlighter-rouge">웹 즈라우저 창의 제목입니다.</code> 또는 이전 버전의 브라우저에서는 <code class="language-plaintext highlighter-rouge">Untitled Document(제목없음)</code>이라고 표시된다.</p>
+
+<p><br /></p>
+
+<h2 id="body-태그">Body 태그</h2>
+<hr />
+<p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>태그에서 <code class="language-plaintext highlighter-rouge">&lt;/body&gt;</code>까지 실제 웹 브라우저 창에 나타나는 여러 가지 내용들이 들어간다.</p>
+
+<p>여기에서 배우는 대부분의 내용들이 이 <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> 태그와 <code class="language-plaintext highlighter-rouge">&lt;/body&gt;</code> 태그 사이에 삽입될 태그들이다.</p>
+
+<p><br /></p>
+
+<h2 id="실습">실습</h2>
+<hr />
+
+<p><img src="./img/html501_52.png" alt="html501_52" /></p>
+
+<p><img src="./img/html501_53.png" alt="html501_53" /></p>
+
+<p><img src="./img/html501_54.png" alt="html501_54" /></p>
+
+<p><img src="./img/html501_55.png" alt="html501_55" /></p>
+
+<p><img src="./img/html501_56.png" alt="html501_56" /></p>
+
+<p><img src="./img/html501_57.png" alt="html501_57" /></p>
+
+<p><img src="./img/html501_58.png" alt="html501_58" /></p>
+:ET

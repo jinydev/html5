@@ -11,6 +11,19 @@ CSS는 `cascading style sheets` 의 약자 입니다. html을 꾸미기 위한 `
 
 <br>
 
+
+
+## 공간영역
+
+html 문서를 꾸미기 위한 공간 영역에 대해서 알아 봅니다.
+
+* [block 영역](./tag/div)
+* [inline 영역](./tag/span)
+
+* 
+
+
+
 ## 버전
 ---
 CSS는 1->2->3버전 까지 존재합니다.

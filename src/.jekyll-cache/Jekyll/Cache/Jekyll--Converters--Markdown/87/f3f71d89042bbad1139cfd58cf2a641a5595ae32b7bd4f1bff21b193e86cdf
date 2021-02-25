@@ -1,0 +1,130 @@
+I"�<h1 id="기본-태그들">기본 태그들</h1>
+
+<h2 id="br-테그">BR 테그</h2>
+
+<p>간단한 문서를 만들었을때 소스에서 아미뤼 줄바꿈을 하더라도 브라우저 창에서는 한 줄로 표시되는 것을 보았다.</p>
+
+<p>실제로 웹 브라우저 창에서 줄바꿈이 되도록 하려면 <code class="language-plaintext highlighter-rouge">&lt;br&gt;</code>테그를 사용한다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;br&gt;</code>태그가 삽입된 위치에서 바로 줄이 바뀌는 것인데</p>
+
+<p>태그를 여버 번 사용하면 사용하는 만틈 브라우저 상에서 엔터키를 누는 것과 같은 효과를 볼 수 있다.</p>
+
+<h2 id="p-테그">P 테그</h2>
+
+<p>웹 문서에서 가장 많이 사용하는 태주중의 하나가 p테그이다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> 태그는 단락(paragraph)을 만드는 태그인데, 단략이란 앞뒤로 빈줄이 있는 텍스트 덩어리를 말한다.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">&lt;p&gt;</code>태그는 다는 태그를 생략해도 되지만, 되도록 다는 태그를 같이 사용하는 급관을 가지는 것이 좋다.</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;p&gt;</code>태그의 align 속성을 사용하면 단락의 정렬 방법을 조정할 수 있다.</p>
+
+<p>사용할 수 있는 값은 다음과 같다</p>
+
+<ul>
+  <li>left</li>
+  <li>right</li>
+  <li>center</li>
+</ul>
+
+<p>align  속성을 따로 지정하지 않았을 때의 기본값은 left이다.</p>
+
+<h2 id="hr-태그">HR 태그</h2>
+
+<p>웹 문서에 가로줄을 삽입할 때 사용하는 태그이다.</p>
+
+<p>닫는 태그는 없으며 속성을 사용하여 가로줄의 모습을 바꿀 수 있다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;hr&gt;</code>태그에서 사용할 수 있는 속성은 다음과 같다. 단, color 속성을 사용하여 색상을 지정하면 자동으로 noshade 기능이 적용되어 가로줄이 평면으로 표시된다.</p>
+
+<p>아무 속성도 지정하지 않으면 문서의 가로폭에 맞게 회색의 사로줄이 삽입된다.</p>
+
+<ul>
+  <li>
+    <p>width :</p>
+
+    <p>수평선의 가로길이. px단위나 %단위 모두 사용할 수 있다.</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;hr&gt;
+&lt;hr width="200px"&gt;
+&lt;hr width="50%"&gt;
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>sise</p>
+
+    <p>수평선의 높이. 즉, 수평선의 세로 두께가 된다.</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;hr width="200px" size="1"&gt;
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>align</p>
+
+    <p>정렬방법. left와 right, center 중에서 사용할 수 있다.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;hr width="200px" align="left"&gt;
+&lt;hr width="200px" align="center"&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>color</p>
+
+    <p>수평선의 색상을 변경합니다.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;hr width="200px" align="right" size="3" color="red"&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>noshaded</p>
+
+    <p>수평선을 삽입하면 기본으로 입체 효가가 추가되는데 이런 입체효과를 없애고 싶다면 noshade 속성을 사용한다.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;hr width="200px" size="5" noshade&gt;
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="주석">주석</h2>
+
+<p>주석(comment)은 웹 브라우저 화면에서는 표시되지 않는 요소이다.</p>
+
+<p>주석은 자중에 자신이 작성한 html 소스를 보거나 다른 사람이 html 소스를 열어 보았을 때 페이지 내용을 쉽게 이해할 수 있도록 설명글을 붙이는 것이다.</p>
+
+<p>주석의 기본 형식은 다음과 같다.</p>
+
+<p>주석은 한 줄에 쓸 수도 있고, 여러줄에 걸쳐서 사용할 수도 있다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- 주석내용 --&gt;
+</code></pre></div></div>
+
+<p><img src="./img/html501_44.png" alt="html501_44" /></p>
+
+<h2 id="제목을-나타내는-hn태그">제목을 나타내는 <code class="language-plaintext highlighter-rouge">&lt;Hn&gt;</code>태그</h2>
+
+<p>웹 문서에서 제목 부분은 대부분 다른 텍스트보다 크고 진하게 표시한다.</p>
+
+<p>이렇게 자주 사용하는 제목 스타일을 미리 태그 형태로 만들어 두었는데 그 형태는 <code class="language-plaintext highlighter-rouge">&lt;Hn&gt;</code>이다.</p>
+
+<p>H는 Heading을 줄인 말이고 n 자리에 1에서 부터 6까지의 숫자를 사용하여 제목 텍스트를 진하게, 크기 별로 표시할 수 있다.</p>
+
+<p>기본 형식은 다음과 같다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h1&gt;안녕하세요&lt;/h1&gt;
+&lt;h2&gt;안녕하세요&lt;/h2&gt;
+&lt;h3&gt;안녕하세요&lt;/h3&gt;
+&lt;h4&gt;안녕하세요&lt;/h4&gt;
+&lt;h5&gt;안녕하세요&lt;/h5&gt;
+&lt;h6&gt;안녕하세요&lt;/h6&gt;
+</code></pre></div></div>
+
+:ET

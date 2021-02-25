@@ -7,7 +7,7 @@
  */
 .bd-navbar {
     padding: .75rem 0;
-    background-color: #7952b3
+    background-color: #57607A
 }
 
 .bd-navbar .navbar-toggler {
@@ -79,7 +79,7 @@
     padding-right: .25rem;
     padding-left: .25rem;
     font-size: .75rem;
-    color: #6c757d;
+    color: #57697a;
     content: "Ctrl + /";
     border: 1px solid #dee2e6;
     border-radius: .125rem
@@ -96,17 +96,17 @@
 }
 
 .bd-search .form-control:focus {
-    border-color: #7952b3;
+    border-color: #57607A;
     box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25)
 }
 
 .bd-sidebar-toggle {
-    color: #6c757d
+    color: #57697a
 }
 
 .bd-sidebar-toggle:hover,
 .bd-sidebar-toggle:focus {
-    color: #7952b3
+    color: #57607A
 }
 
 .bd-sidebar-toggle:focus {
@@ -129,7 +129,7 @@
     padding: 3rem 0;
     /* 메인타이틀 배경 기울기*/
     
-    background: linear-gradient(165deg, #f7f5fb 50%, #fff 50%)
+    background: linear-gradient(deg, #f7f5fb 50%, #fff 50%)
     
     /*background-color:#f7f5fb;*/
 }
@@ -291,11 +291,11 @@
 }
 
 .bd-text-purple-bright {
-    color: #7952b3
+    color: #57607A
 }
 
 .bd-bg-purple-bright {
-    background-color: #7952b3
+    background-color: #57607A
 }
 
 .skippy {
@@ -701,7 +701,7 @@
 .bd-example-ratios .ratio {
     display: inline-block;
     width: 10rem;
-    color: #6c757d;
+    color: #57697a;
     background-color: #f8f9fa;
     border: 1px solid #dee2e6
 }
@@ -831,8 +831,8 @@
 .btn-bd-primary {
     font-weight: 600;
     color: #fff;
-    background-color: #7952b3;
-    border-color: #7952b3
+    background-color: #57607A;
+    border-color: #57607A
 }
 
 .btn-bd-primary:hover,
@@ -864,16 +864,16 @@
 }
 
 .btn-bd-light {
-    color: #6c757d;
+    color: #57697a;
     border-color: #dee2e6
 }
 
 .show>.btn-bd-light,
 .btn-bd-light:hover,
 .btn-bd-light:active {
-    color: #7952b3;
+    color: #57607A;
     background-color: #fff;
-    border-color: #7952b3
+    border-color: #57607A
 }
 
 .btn-bd-light:focus {
@@ -918,12 +918,12 @@
 }
 
 .bd-brand-logos {
-    color: #7952b3
+    color: #57607A
 }
 
 .bd-brand-logos .inverse {
     color: #fff;
-    background-color: #7952b3
+    background-color: #57607A
 }
 
 .bd-brand-item+.bd-brand-item {
@@ -1191,7 +1191,7 @@
 
 .swatch-gray {
     color: #fff;
-    background-color: #6c757d
+    background-color: #57697a
 }
 
 .swatch-gray::after {
@@ -1203,7 +1203,7 @@
     line-height: 1.35;
     white-space: pre;
     content: "4.68""\a""4.68""\a""4.47";
-    background-color: #6c757d;
+    background-color: #57697a;
     background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
     background-repeat: no-repeat;
     background-size: .5rem 100%
@@ -1726,7 +1726,7 @@
 
 .bd-gray-600 {
     color: #fff;
-    background-color: #6c757d
+    background-color: #57697a
 }
 
 .bd-gray-700 {
@@ -2114,7 +2114,7 @@
 .algolia-docsearch-suggestion--category-header {
     padding: .125rem 1rem;
     font-weight: 600;
-    color: #7952b3
+    color: #57607A
 }
 
 :not(.algolia-docsearch-suggestion__main)>.algolia-docsearch-suggestion--category-header {
@@ -2174,7 +2174,7 @@
     padding: .5rem 1rem 0;
     margin-top: .625rem;
     font-size: .75rem;
-    color: #6c757d;
+    color: #57697a;
     border-top: 1px solid rgba(0, 0, 0, 0.1)
 }
 
